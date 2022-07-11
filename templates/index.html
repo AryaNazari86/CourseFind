@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>کورس فایند</title>
     <!-- Styles -->
-    <link rel="stylesheet" href="style/all.css" />
-    <link rel="stylesheet" href="icons/remixicon.css" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style/all.css' %}" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
 <body dir="rtl">
@@ -19,7 +21,7 @@
         <div class="content">
             <div class="logo-container">
                 <!-- Logo Image -->
-                <img src="media/Test_Logo.jpeg" />
+                <img src="/media/Test_Logo.jpeg" />
                 <!-- Texts -->
                 <div class="header">
                     <h1>کورس فایند</h1>
@@ -28,7 +30,7 @@
             </div>
             <form>
                 <div id="search-bar">
-                    <input type="text" placeholder="جستجو کن..." spellcheck="false"/>
+                    <input type="text" placeholder="جستجو کن..." spellcheck="false" />
                     <button type="submit">
                         <i class="ri-search-2-line"></i>
                     </button>
@@ -37,9 +39,10 @@
             </form>
         </div>
     </main>
-    <script src="script/lottie.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="script/all.js"></script>
+    <script src="{% static 'script/lottie.min.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="{% static 'script/all.js'%}"></script>
 </body>
 
 </html>
