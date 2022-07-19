@@ -1,9 +1,13 @@
+from distutils.command.upload import upload
+from email.policy import default
 from django.db import models
 
 
 class CourseSource(models.Model):
     name = models.CharField(max_length=50)
     url = models.URLField()
+    image = models.ImageField(
+        upload_to='CourseSources-Images/', default='default-course.png')
 
 
 class Course(models.Model):
@@ -12,6 +16,7 @@ class Course(models.Model):
     image = models.ImageField(
         upload_to='Course-Images/', default='default-course.png')
     participants = models.IntegerField(default=0)
+    rating = models.FloatField(default=0)
 
     url = models.URLField()
     source = models.ForeignKey(
