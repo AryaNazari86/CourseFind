@@ -13,8 +13,7 @@ class CourseSource(models.Model):
 class Course(models.Model):
     name = models.CharField(max_length=50)
     price = models.IntegerField()
-    image = models.ImageField(
-        upload_to='Course-Images/', default='default-course.png')
+    image_url = models.URLField()
     participants = models.IntegerField(default=0)
     rating = models.FloatField(default=0)
 

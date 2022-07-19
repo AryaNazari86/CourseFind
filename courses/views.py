@@ -7,6 +7,12 @@ def home(request):
     return render(request, 'index.html')
 
 
+def about(request):
+    return render(request, 'about.html')
+
+# Courses
+
+
 def search(request):
     query = Course.objects.filter(name__icontains=request.GET['name'])
 
