@@ -30,4 +30,5 @@ for course in courses[:5]:
     result['participants'] = int(BeautifulSoup(requests.get(result['url']).text, 'html.parser').find(
         'div', attrs={'id': 'soldCount'}).text.strip()[:-3].replace(',', ''))
 
-    print(result)
+response = requests.post('http://127.0.0.1:8000/a/?format=api', json=result)
+print(response)
