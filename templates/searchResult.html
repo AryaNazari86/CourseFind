@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>کورس فایند</title>
   <!-- Styles -->
-  <link rel="stylesheet" href="../static/style/all.css" />
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'style/all.css' %}" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
@@ -35,54 +36,45 @@
   </header>
   <main>
     <div class="courses">
-      <table>
+
+      {% for course in courses%}
+      <table class="course">
         <tr>
-          <td>
-            <table class="course">
-              <tr>
-                <td valign="top">
-                  <img
-                    src="../media/Course Image Test.jpeg"
-                    class="course-image"
-                  />
-                  <div class="bottom">
-                    <h2>آموزش برنامه نویسی پایتون Python - مقدماتی</h2>
-                    <div class="provider-logo">
-                      <img
-                        src="../media/faradars-profile-picture.png"
-                        width="30px"
-                        height="30px"
-                      />
-                      <p>فرادرس</p>
-                    </div>
-                    <div class="user-count">
-                      <img
-                        src="../media/faradars-profile-picture.png"
-                        width="30px"
-                        height="30px"
-                      />
-                      <p>33.041 دانشجو</p>
-                    </div>
-                    <div class="rating"></div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td valign="top">
-                  <div class="footer">
-                    <p class="price">170 هزار تومان</p>
-                    <button>جزئیات</button>
-                  </div>
-                </td>
-              </tr>
-            </table>
+          <td valign="top">
+            <img src="{{course.image_url}}" class="course-image" />
+            <div class="bottom">
+              <h2>{{course.name}}</h2>
+              <div class="provider-logo">
+                <img src="../media/faradars-profile-picture.png" width="30px" height="30px" />
+                <p>{{course.source.name}}</p>
+              </div>
+              <div class="user-count">
+                <img src="../media/faradars-profile-picture.png" width="30px" height="30px" />
+                <p>{{course.participants}} دانشجو</p>
+              </div>
+              <div class="rating"></div>
+            </div>
           </td>
         </tr>
+        <tr>
+          <td valign="top">
+            <div class="footer">
+              {% if course.price == 0 %}
+              <p class="price">رایگان!</p>
+              {% else %}
+              <p class="price">{{course.price}} تومان</p>
+              {% endif %}
+              <button>جزئیات</button>
+            </div>
+      </table>
+      {% endfor %}
+      </td>
+      </tr>
       </table>
     </div>
   </main>
   <div id="filters-popup">
-    
+
     <div id="page-shadow"></div>
     <div id="filter-group">
       <button id="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
@@ -101,7 +93,7 @@
   </div>
 
   </form>
-  <script src="/../static/script/resultPage.js"></script>
+  <script src="{% static '/script/resultPage.js' %}"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>

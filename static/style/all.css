@@ -499,3 +499,14 @@ header>form {
     height: 60px;
   }
 }
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.course {
+  margin : 30px;
+  min-width: 200px;
+}
