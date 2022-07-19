@@ -1,10 +1,23 @@
 from urllib import response
 from django.shortcuts import render, HttpResponse
 from courses.models import Course
+from rest_framework.generics import ListCreateAPIView, RetrieveDestroyAPIView
+from courses import serializers
 
 
 def home(request):
     return render(request, 'index.html')
+
+
+def about(request):
+    return render(request, 'about.html')
+
+# API
+
+
+class CourseList(ListCreateAPIView):
+    serializer_class = serializers.Course
+    queryset = Course.objects.all()
 
 
 def search(request):
