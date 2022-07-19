@@ -34,7 +34,7 @@ def search(request):
     if 'order' in request.GET.keys():
         query.order_by(request.GET['order'])
     else:
-        query.order_by('participants')
+        query.order_by('price')
 
     # Filter by price
     if 'min-price' in request.GET.keys() and 'max-price' in request.GET.keys():

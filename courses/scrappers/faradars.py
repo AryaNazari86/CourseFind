@@ -4,7 +4,7 @@ import requests
 requests.get('http://127.0.0.1:8000/del?id=1')
 input('Start?')
 
-for page in range(2):
+for page in range(34):
     page = requests.get(
         'https://faradars.org/explore?page=' + str(page) + '&category_ids=1049')
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -36,4 +36,4 @@ for page in range(2):
         response = requests.post('http://127.0.0.1:8000/add/?format=api',
                                  json=result)
 
-        print(response)
+        print(page, response)

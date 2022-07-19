@@ -23,12 +23,12 @@
       <h1>کورس فایند</h1>
     </div>
 
-    <div class="search-bar">
+    <form class="search-bar" method="GET" action="{% url 'search' %}">
       <input type="text" name="name" placeholder="جستجو کن..." spellcheck="false" />
       <button type="submit">
         <i class="ri-search-2-line"></i>
       </button>
-    </div>
+    </form>
     <div id="filters-btn">
       <i class="ri-equalizer-line"></i>
       فیلتر ها
@@ -64,7 +64,7 @@
               {% else %}
               <p class="price">{{course.price}} تومان</p>
               {% endif %}
-              <button>جزئیات</button>
+              <button><a href="{{course.url}}">جزییات</a></button>
             </div>
       </table>
       {% endfor %}
