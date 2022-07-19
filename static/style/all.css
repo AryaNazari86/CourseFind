@@ -547,3 +547,14 @@ header > form {
 .filter-item select option {
   outline: none;
 }
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.course {
+  margin: 30px;
+  min-width: 200px;
+}
