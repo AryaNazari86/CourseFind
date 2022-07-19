@@ -1,38 +1,64 @@
 <html lang="fa">
-  <head>
-    <!-- Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>کورس فایند</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="../static/style/all.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body dir="rtl">
-    <!-- <div id="loaderContainer">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>کورس فایند</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="../static/style/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body dir="rtl">
+  <!-- <div id="loaderContainer">
       <div id="loader"></div>
     </div> -->
-    <header>
-      <div class="logo-container">
-        <img src="../media/Test_logo.jpeg" />
-        <div class="header">
-          <h1>کورس فایند</h1>
-        </div>
-      </div>
+  <form method="GET" action="{% url 'search' %}"></form>
+  <header>
+    <div class="logo-header">
+      <img src="../media/Test_logo.jpeg" />
+      <h1>کورس فایند</h1>
+    </div>
 
-    </header>
-    <main>
-      <div class="courses"></div>
-    </main>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="search-bar">
+      <input type="text" name="name" placeholder="جستجو کن..." spellcheck="false" />
+      <button type="submit">
+        <i class="ri-search-2-line"></i>
+      </button>
+    </div>
+    <div id="filters-btn">
+      <i class="ri-equalizer-line"></i>
+      فیلتر ها
+    </div>
+  </header>
+  <main>
+    <div class="courses"></div>
+  </main>
+  <div id="filters-popup">
+    
+    <div id="page-shadow"></div>
+    <div id="filter-group">
+      <button id="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
+        <i class="ri-close-line"></i>
+      </button>
+      <div class="filter-item">
+        <div>ترتیب</div>
+      </div>
+      <div class="filter-item">
+        <div>حداکثر قیمت</div>
+      </div>
+      <div class="filter-item">
+        <div>امتیاز</div>
+      </div>
+    </div>
+  </div>
+
+  </form>
+  <script src="/../static/script/resultPage.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+
 </html>
