@@ -507,6 +507,9 @@ header > form {
 }
 
 .filter-item select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
   width: 250px;
   padding-right: 10px;
   padding-top: 10px;
@@ -519,7 +522,10 @@ header > form {
   font-size: 18px;
 
   appearance: none; /* Remove default arrow */
-  background-image: url(...); /* Add custom arrow */
+  background-image: url("../../media/Dropdown-arrow.png"); /* Add custom arrow */
+  background-size: 20px;
+  background-position: 20px;
+  background-repeat: no-repeat;
 
   background-color: #dedede;
   color: black;
@@ -537,7 +543,6 @@ header > form {
 
 .filter-item select:active {
   border-style: none;
-  border-width: 0px;
 }
 
 .filter-item select:focus {
@@ -545,7 +550,15 @@ header > form {
 }
 
 .filter-item select option {
-  outline: none;
+  padding-right: 10px;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  background-color: #dedede;
+  color: black;
+
+  transition: 0.25s;
 }
 
 .courses {
