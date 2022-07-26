@@ -717,7 +717,30 @@ p,
   transition: 0.25s;
 }
 
+.description h1 {
+  margin-right: 15px;
+  width: 100%;
+}
+
+.description-text {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  width: 60vw;
+  height: 90%;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  display: flex;
+  flex: 1;
+}
+
 @media only screen and (max-width: 500px) {
+  .description h1 {
+    text-align: center;
+    margin-right: 0px;
+  }
+
   .course-details-page .main {
     display: block;
     flex-direction: column;
@@ -739,5 +762,10 @@ p,
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .description-text {
+    width: 90vw;
+    font-size: 20px;
   }
 }
