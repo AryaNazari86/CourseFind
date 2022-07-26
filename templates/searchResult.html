@@ -10,7 +10,9 @@
   {% load static %}
   <!-- <link rel="stylesheet" href="{% static 'style/all.css' %}" /> -->
   <link rel="stylesheet" href="../static/style/all.css" />
+  <link rel="stylesheet" href="../static/style/star-rating.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet/less" type="text/css" href="../static/style/range.less" />
 </head>
 
 <body dir="rtl">
@@ -65,14 +67,14 @@
               {% else %}
               <p class="price">{{course.price}} تومان</p>
               {% endif %}
-              <button onclick="showCourseDetails('http://tima.school/')">جزییات</button>
+              <button onclick="showCourseDetails('https://tima.school/')">جزییات</button>
             </div>
       </table>
       {% endfor %}
       </td>
       </tr>
       </table>
-      
+
     </div>
   </main>
   <div class="page-popup" id="filters-popup">
@@ -94,10 +96,13 @@
       </div>
       <div class="filter-item">
         <div>حداکثر قیمت</div>
-
+        <div id="maxPriceValue">۲۵۰۰۰۰۰</div>
+        <input name="maxPrice" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="2500000">
       </div>
       <div class="filter-item">
         <div>امتیاز</div>
+        <input name="rating" class="star-rating" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5"
+          style="--value:2.5" type="range" value="2.5">
       </div>
     </div>
   </div>
@@ -105,15 +110,21 @@
 
     <div class="page-shadow"></div>
     <div class="page-group" id="course-details-group">
-      <button class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
+      <button class="closeBtn" onclick="closeCourseDetails();">
         <i class="ri-close-line"></i>
       </button>
-      <iframe src="url" id="course-url"></iframe>
+      <div>
+        <iframe src="" id="course-iframe"></iframe>
+      </div>
+
     </div>
   </div>
 
   </form>
   <!-- <script src="{% static '/script/resultPage.js' %}"></script> -->
+  <script src="../static/script/less.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@persian-tools/persian-tools/build/persian-tools.umd.js"></script>
+  <script src="../static/script/range.js"></script>
   <script src="../static/script/resultPage.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

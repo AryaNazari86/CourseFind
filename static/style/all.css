@@ -342,16 +342,29 @@ header > form {
   color: #3b3737;
   text-align: center;
   font-size: 18px;
+  font-weight: 500;
 }
 
 .page-group > .closeBtn {
   background-color: transparent;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .page-group > .closeBtn > i {
   font-size: 28px;
+}
+
+#course-details-group{
+  overflow: hidden;
+  padding: 20px 0;
+  width: 90vw;
+  height: 70vh;
+}
+
+#course-details-group > .closeBtn{
+  margin-right: 20px;
 }
 
 /* Search result page */
@@ -505,6 +518,7 @@ header > form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 22px 0;
 }
 
 .filter-item select {
@@ -571,4 +585,11 @@ header > form {
 .course {
   margin: 30px;
   min-width: 200px;
+}
+
+#course-iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background:url(../../media/loader.gif) center center no-repeat;
 }
