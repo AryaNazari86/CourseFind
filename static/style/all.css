@@ -102,7 +102,7 @@ header {
   margin: 20px 60px;
 }
 
-header>form {
+header > form {
   margin: 0 20px;
 }
 
@@ -117,13 +117,13 @@ header>form {
     justify-content: space-between;
   }
 
-  header>.search-bar {
+  header > .search-bar {
     display: none;
   }
 }
 
 #filters-btn {
-  color: #3B3737;
+  color: #3b3737;
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
@@ -132,7 +132,7 @@ header>form {
   align-items: center;
 }
 
-#filters-btn>i {
+#filters-btn > i {
   margin-left: 6px;
 }
 
@@ -142,16 +142,16 @@ header>form {
   align-items: center;
 }
 
-.logo-header>img {
+.logo-header > img {
   width: 70px;
   height: 70px;
 }
 
-.logo-header>h1 {
+.logo-header > h1 {
   font-family: Vazirmatn;
   font-weight: 900;
   font-size: 24px;
-  color: #D14045;
+  color: #d14045;
 }
 
 .logo-container {
@@ -169,52 +169,52 @@ header>form {
     margin-right: 0;
   }
 
-  .logo-container>.header {
+  .logo-container > .header {
     margin-bottom: 25px;
     margin-top: -20px;
   }
 
-  .logo-container>.header>* {
+  .logo-container > .header > * {
     text-align: center;
   }
 }
 
-.logo-container>img {
+.logo-container > img {
   height: 160px;
 }
 
-.logo-container>.header {
+.logo-container > .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 0;
 }
 
-.logo-container>.header {
+.logo-container > .header {
   margin-bottom: 25px;
   margin-top: -20px;
 }
 
-.logo-container>.header>* {
+.logo-container > .header > * {
   text-align: center;
 }
 
-.logo-container>img {
+.logo-container > img {
   height: 160px;
 }
 
-.logo-container>.header {
+.logo-container > .header {
   display: flex;
   flex-direction: column;
 }
 
-.logo-container>.header>h1 {
+.logo-container > .header > h1 {
   font-weight: 900;
   color: #d14045;
   margin: 0;
 }
 
-.logo-container>.header>p {
+.logo-container > .header > p {
   font-weight: 500;
   color: #3b3737;
   margin: 0;
@@ -238,29 +238,29 @@ header>form {
   overflow: hidden;
 }
 
-.search-bar>input {
+.search-bar > input {
   height: 100%;
   padding-right: 20px;
   flex: 1;
   background-color: transparent;
   border: none;
   outline: none;
-  color: #3B3737;
+  color: #3b3737;
   text-align: right;
   font-weight: 500;
   font-size: 24px;
 }
 
-.search-bar>input::placeholder {
+.search-bar > input::placeholder {
   text-align: right;
-  color: #3B3737;
+  color: #3b3737;
   font-weight: 500;
   font-size: 24px;
   /* padding-right: 50px; */
 }
 
-.search-bar>button {
-  background-color: #D14045;
+.search-bar > button {
+  background-color: #d14045;
   border: none;
   outline: none;
   width: 50px;
@@ -271,7 +271,7 @@ header>form {
   cursor: pointer;
 }
 
-.search-bar>button>i {
+.search-bar > button > i {
   font-size: 24px;
   color: #fff;
 }
@@ -320,7 +320,7 @@ header>form {
   flex-direction: column;
 }
 
-#filters-popup>#filter-group {
+#filters-popup > #filter-group {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 15px 1px #939393;
   box-shadow: 0px 0px 15px 1px #939393;
@@ -332,25 +332,25 @@ header>form {
 }
 
 @media (max-width: 576px) {
-  #filters-popup>#filter-group {
+  #filters-popup > #filter-group {
     width: 80vw;
     height: 60vh;
   }
 }
 
-#filters-popup>#filter-group>.filter-item>div {
-  color: #3B3737;
+#filters-popup > #filter-group > .filter-item > div {
+  color: #3b3737;
   text-align: center;
   font-size: 18px;
 }
 
-#filter-group>#closeBtn {
+#filter-group > #closeBtn {
   background-color: transparent;
   outline: none;
   border: none;
 }
 
-#filter-group>#closeBtn>i {
+#filter-group > #closeBtn > i {
   font-size: 28px;
 }
 
@@ -501,4 +501,74 @@ header>form {
   }
 }
 
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.filter-item select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  width: 250px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border-radius: 16px;
+  border-style: none;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  appearance: none; /* Remove default arrow */
+  background-image: url("../../media/Dropdown-arrow.png"); /* Add custom arrow */
+  background-size: 30px;
+  background-position: 15px;
+  background-repeat: no-repeat;
+
+  background-color: #dedede;
+  color: black;
+  outline: none;
+
+  transition: 0.25s;
+}
+
+.filter-item select:hover {
+  cursor: pointer;
+  background-color: #ababab;
+
+  transition: 0.25s;
+}
+
+.filter-item select:active {
+  border-style: none;
+}
+
+.filter-item select:focus {
+  background-color: #dedede;
+}
+
+.filter-item select option {
+  padding-right: 10px;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  background-color: #dedede;
+  color: black;
+
+  transition: 0.25s;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.course {
+  margin: 30px;
+  min-width: 200px;
+}

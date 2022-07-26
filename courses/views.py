@@ -1,7 +1,7 @@
 from urllib import response
 from django.shortcuts import render, HttpResponse
 from courses.models import Course
-from rest_framework.generics import ListCreateAPIView, RetrieveDestroyAPIView
+from rest_framework.generics import ListCreateAPIView
 from courses import serializers
 
 
@@ -20,6 +20,13 @@ class CourseList(ListCreateAPIView):
     queryset = Course.objects.all()
 
 
+def SourceDel(request):
+    # TODO:Change this to post
+    Course.objects.filter(source__id=request.GET['id']).delete()
+    return HttpResponse('!')
+
+
+# Courses
 def search(request):
     query = Course.objects.filter(name__icontains=request.GET['name'])
 
@@ -44,7 +51,7 @@ def search(request):
         query.filter(rating__lte=request.GET['min-rating'],
                      rating__gte=request.GET['max-rating'])
 
-    return render(request, 'search.html', {'courses': query})
+    return render(request, 'searchResult.html', {'courses': query})
 
 
 def course_details(request, course_id):
