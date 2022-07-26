@@ -1,6 +1,8 @@
-document.getElementById("filters-btn").addEventListener('click', () => {
-    $("#filters-popup").css("display", "flex").fadeIn(100);
+document.getElementById("filters-btn").addEventListener("click", () => {
+  $("#filters-popup").css("display", "flex").fadeIn(100);
 });
-document.getElementById("page-shadow").addEventListener('click', () => {
-    $("#filters-popup").fadeOut(100);
-});
+
+function showCourseDetails(url) {
+  $("#course-url").attr("src", url);
+  $("#course-details-popup").css("display", "flex").fadeIn(100);
+}
