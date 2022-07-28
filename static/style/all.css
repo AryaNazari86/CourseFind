@@ -672,8 +672,10 @@ p,
   padding-left: 20px;
 
   background-color: #dedede;
-  height: 100%;
+  min-height: 100%;
   width: 30%;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 .course-details-page .sidebar .course-img {
@@ -749,8 +751,8 @@ p,
   padding-right: 15px;
   padding-left: 15px;
 
-  width: 60vw;
-  height: 90%;
+  width: 65vw;
+  height: 87%;
   overflow: scroll;
   overflow-x: hidden;
 
@@ -758,7 +760,7 @@ p,
   flex: 1;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .description h1 {
     text-align: center;
     margin-right: 0px;
@@ -774,7 +776,7 @@ p,
     padding-left: 20px;
 
     width: auto;
-    height: auto;
+    min-height: auto;
   }
 
   .course-details-page .sidebar button {
@@ -789,6 +791,32 @@ p,
 
   .description-text {
     width: 90vw;
+    height: auto;
     font-size: 20px;
+
+    overflow: visible;
+    padding-bottom: 20px;
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dedede;
+  border-radius: 26px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #605959;
+  border-radius: 26px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b3737;
 }
