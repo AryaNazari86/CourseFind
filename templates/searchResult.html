@@ -48,20 +48,22 @@
             <div class="bottom">
               <h2 class="course-title">{{course.name}}</h2>
               <div class="provider-logo">
-                <img src="../media/faradars-profile-picture.png" width="40px" height="40px" />
+                <img src="../media/faradars-profile-picture.png" width="30" height="30" />
                 <p>{{course.source.name}}</p>
               </div>
+              {% if course.participants != -1 %}
               <div class="user-count">
-                <i class="ri-user-fill"></i>
+                <i class="ri-group-fill"></i>
                 <p>{{course.participants}} دانشجو</p>
               </div>
+              {% endif %}
+              
               <div class="rating">
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-half-fill"></i>
-
               </div>
             </div>
           </td>
