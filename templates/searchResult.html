@@ -52,10 +52,17 @@
                 <p>{{course.source.name}}</p>
               </div>
               <div class="user-count">
-                <img src="../media/faradars-profile-picture.png" width="30px" height="30px" />
+                <i class="ri-user-fill"></i>
                 <p>{{course.participants}} دانشجو</p>
               </div>
-              <div class="rating"></div>
+              <div class="rating">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+
+              </div>
             </div>
           </td>
         </tr>
@@ -67,7 +74,7 @@
               {% else %}
               <p class="price">{{course.price}} تومان</p>
               {% endif %}
-              <button onclick="showCourseDetails('https://tima.school/')">جزییات</button>
+              <button onclick="showCourseDetails('/templates/courseDetails.html')">جزییات</button>
             </div>
       </table>
       {% endfor %}

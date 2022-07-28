@@ -320,6 +320,7 @@ header > form {
 }
 
 .page-popup > .page-group {
+  position: relative;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 15px 1px #939393;
   box-shadow: 0px 0px 15px 1px #939393;
@@ -349,6 +350,9 @@ header > form {
   outline: none;
   border: none;
   cursor: pointer;
+  position: absolute;
+  left: 20px;
+  top: 20px;
 }
 
 .page-group > .closeBtn > i {
@@ -357,9 +361,9 @@ header > form {
 
 #course-details-group {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 0;
   width: 90vw;
-  height: 70vh;
+  height: 90vh;
 }
 
 #course-details-group > .closeBtn {
@@ -418,6 +422,24 @@ p,
   margin-right: 5px;
 
   font-weight: 500;
+}
+
+.user-count > p{
+  margin-top: 6px!important;
+}
+
+.user-count > i{
+  font-size: 20px;
+  color: #3B3737;
+}
+
+.rating{
+  display: flex;
+}
+.rating > i{
+  font-size: 20px;
+  margin-left: 5px;
+  color: #D9A900;
 }
 
 .course .footer {
@@ -504,6 +526,7 @@ p,
     margin-right: 10px;
     font-size: 20px;
   }
+
 
   .course .footer {
     margin-top: 27.5%;
