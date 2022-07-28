@@ -54,6 +54,5 @@ def search(request):
     return render(request, 'searchResult.html', {'courses': query})
 
 
-def course_details(request, course_id):
-    context = {'details': Course.objects.get(id=course_id)}
-    return render(request, '')
+def course_details(request):
+    return render(request, 'courseDetails.html')
