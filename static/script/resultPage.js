@@ -14,7 +14,7 @@ function closeCourseDetails() {
 var courseTitles = document.getElementsByClassName("course-title");
 for (let index = 0; index < courseTitles.length; index++) {
   const courseTitle = courseTitles[index];
-  if (courseTitle.innerHTML.length > 50) {
-    courseTitle.innerHTML = courseTitle.innerHTML.slice(0, 50) + "...";
+  if (courseTitle.innerHTML.length > 35) {
+    courseTitle.innerHTML = courseTitle.innerHTML.slice(0, 35) + "...";
   }
 }
