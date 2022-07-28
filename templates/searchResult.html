@@ -21,10 +21,10 @@
     </div> -->
   <form method="GET" action="{% url 'search' %}"></form>
   <header>
-    <div class="logo-header">
-      <img src="../media/Test_logo.jpeg" />
-      <h1>کورس فایند</h1>
-    </div>
+      <a href="{% url 'home' %}" class="logo-header">
+        <img src="../media/Test_logo.jpeg" />
+        <h1>کورس فایند</h1>
+      </a>
 
     <form class="search-bar" method="GET" action="{% url 'search' %}">
       <input type="text" name="name" placeholder="جستجو کن..." spellcheck="false" />
@@ -48,7 +48,7 @@
             <div class="bottom">
               <h2 class="course-title">{{course.name}}</h2>
               <div class="provider-logo">
-                <img src="../media/faradars-profile-picture.png" width="30px" height="30px" />
+                <img src="../media/faradars-profile-picture.png" width="40px" height="40px" />
                 <p>{{course.source.name}}</p>
               </div>
               <div class="user-count">
