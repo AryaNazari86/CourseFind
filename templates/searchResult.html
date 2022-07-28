@@ -74,7 +74,7 @@
               {% else %}
               <p class="price">{{course.price}} تومان</p>
               {% endif %}
-              <button onclick="showCourseDetails('/templates/courseDetails.html')">جزییات</button>
+              <button onclick="showCourseDetails('{% url 'course' %}')">جزییات</button>
             </div>
       </table>
       {% endfor %}

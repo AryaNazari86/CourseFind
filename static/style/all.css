@@ -190,7 +190,6 @@ header > form {
 }
 
 .logo-container > .header {
-  margin-bottom: 25px;
   margin-top: -20px;
 }
 
@@ -433,6 +432,10 @@ p,
   color: #3B3737;
 }
 
+#order {
+  color: #3b3737;
+}
+
 .rating{
   display: flex;
 }
@@ -637,6 +640,10 @@ p,
 .prodiver-logo-container {
   display: flex;
   align-items: center;
+}
+
+.provider-logo > img{
+  border-radius: 6px;
 }
 
 .course-details-page .provider-logo {
