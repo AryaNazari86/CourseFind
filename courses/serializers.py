@@ -8,11 +8,12 @@ class Course(serializers.ModelSerializer):
     price = serializers.IntegerField()
     image_url = serializers.URLField()
     participants = serializers.IntegerField()
-
+    teacher = models.CharField(max_length=50)
     url = serializers.URLField()
     source = CourseSource()
+    description = serializers.CharField()
 
     class Meta:
         model = Course
-        fields = ('name', 'price', 'image_url', 'source',
-                  'url', 'price', 'participants')
+        fields = ('name', 'price', 'image_url', 'source', 'teacher',
+                  'url', 'price', 'participants', 'description')

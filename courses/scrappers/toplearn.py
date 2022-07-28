@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 requests.get('http://127.0.0.1:8000/del?id=2')
-input('Start?')
+input('Press Enter To Start: ')
 
 for page in range(1, 55):
     page = requests.get(
@@ -13,12 +13,13 @@ for page in range(1, 55):
     courses = soup.find_all('div', attrs={
         'class': 'col-lg-4 course-col'})
 
-    for course in courses[:3]:
+    for course in courses:
         result = {
             'name': course.find('a')['title'].strip(),
             'image_url': 'https://toplearn.com' + course.find('img')['data-src'],
             'source': 2,
-            'url': 'https://toplearn.com' + course.find('a')['href']
+            'url': 'https://toplearn.com' + course.find('a')['href'],
+            'teacher': course.find('div', attrs={'class': 'detail'}).find('a')['title'],
         }
 
         # Price
@@ -35,7 +36,13 @@ for page in range(1, 55):
         # Participants
         result['participants'] = -1
 
-        response = requests.post('http://127.0.0.1:8000/add/?format=api',
-                                 json=result)
+        # Description
+        course_page = BeautifulSoup(
+            requests.get(result['url']).text, 'html.parser')
+        result['description'] = course_page.find(
+            'div', attrs={'class': 'course-content-text'}).text.strip()
+
+        response = requests.post(
+            'http://127.0.0.1:8000/api/?format=api', json=result)
 
         print(page, response)

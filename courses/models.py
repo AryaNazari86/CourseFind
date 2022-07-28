@@ -16,10 +16,11 @@ class Course(models.Model):
     image_url = models.URLField()
     participants = models.IntegerField(default=0)
     rating = models.FloatField(default=0)
-
+    teacher = models.CharField(max_length=50, default='Teacher')
     url = models.URLField()
     source = models.ForeignKey(
         CourseSource, related_name='courses', on_delete=models.CASCADE)
+    description = models.TextField(default='')
 
     def __str__(self):
         return self.name

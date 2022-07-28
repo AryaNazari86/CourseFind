@@ -54,5 +54,7 @@ def search(request):
     return render(request, 'searchResult.html', {'courses': query})
 
 
-def course_details(request):
-    return render(request, 'courseDetails.html')
+def course_details(request, id):
+    query = Course.objects.get(id=id)
+    print(query.price)
+    return render(request, 'courseDetails.html', {'course': query})

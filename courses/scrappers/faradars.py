@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 requests.get('http://127.0.0.1:8000/del?id=1')
-input('Start?')
+input('Press Enter To Start: ')
 
 for page in range(34):
     page = requests.get(
@@ -19,8 +19,12 @@ for page in range(34):
                 'class': 'show-text-card'}).text.strip(),
             'image_url': course.find('img')['src'],
             'source': 1,
-            'url': course.find('a')['href']
+            'url': course.find('a')['href'],
         }
+
+        # Teacher
+        result['teacher'] = BeautifulSoup(requests.get(
+            result['url']).text, 'html.parser').find('h6').text.strip()
 
         # Price
         price = course.find('div', attrs={'class': 'card-footer'}).text.strip()
@@ -33,7 +37,7 @@ for page in range(34):
         result['participants'] = int(BeautifulSoup(requests.get(result['url']).text, 'html.parser').find(
             'div', attrs={'id': 'soldCount'}).text.strip()[:-3].replace(',', ''))
 
-        response = requests.post('http://127.0.0.1:8000/add/?format=api',
-                                 json=result)
+        response = requests.post(
+            'http://127.0.0.1:8000/api/?format=api', json=result)
 
         print(page, response)
