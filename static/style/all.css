@@ -139,6 +139,8 @@ header > form {
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  text-decoration: none;
 }
 
 .logo-header > img {
@@ -423,26 +425,26 @@ p,
   font-weight: 500;
 }
 
-.user-count > p{
-  margin-top: 6px!important;
+.user-count > p {
+  margin-top: 6px !important;
 }
 
-.user-count > i{
+.user-count > i {
   font-size: 20px;
-  color: #3B3737;
+  color: #3b3737;
 }
 
 #order {
   color: #3b3737;
 }
 
-.rating{
+.rating {
   display: flex;
 }
-.rating > i{
+.rating > i {
   font-size: 20px;
   margin-left: 5px;
-  color: #D9A900;
+  color: #d9a900;
 }
 
 .course .footer {
@@ -530,19 +532,21 @@ p,
     font-size: 20px;
   }
 
-
   .course .footer {
     margin-top: 27.5%;
+    flex-direction: column;
   }
 
   .course .footer .price {
     font-size: 25px;
+    margin-bottom: 5px;
   }
 
   .course .footer button {
     font-size: 30px;
-    width: 150px;
+    width: 100%;
     height: 60px;
+    margin-bottom: 10px;
   }
 }
 
@@ -642,7 +646,7 @@ p,
   align-items: center;
 }
 
-.provider-logo > img{
+.provider-logo > img {
   border-radius: 6px;
 }
 
