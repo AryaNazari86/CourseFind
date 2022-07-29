@@ -21,11 +21,11 @@
     </div> -->
   <form method="GET" action="{% url 'search' %}"></form>
   <header>
-      <a href="{% url 'home' %}" class="logo-header">
-        <img src="../media/Test_logo.jpeg" />
-        <h1>کورس فایند</h1>
-      </a>
-      
+    <a href="{% url 'home' %}" class="logo-header">
+      <img src="../media/Test_logo.jpeg" />
+      <h1>کورس فایند</h1>
+    </a>
+
     <form class="search-bar" method="GET" action="{% url 'search' %}">
       <input type="text" name="name" placeholder="جستجو کن..." spellcheck="false" />
       <button type="submit">
@@ -60,7 +60,7 @@
                 <p>{{course.participants}} دانشجو</p>
               </div>
               {% endif %}
-              
+
               <div class="rating">
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -79,7 +79,7 @@
               {% else %}
               <p class="price">{{course.price}} تومان</p>
               {% endif %}
-              <button onclick="showCourseDetails('{% url 'course' %}')">جزییات</button>
+              <button onclick="showCourseDetails('/course/{{course.id}}')">جزییات</button>
             </div>
       </table>
       {% endfor %}
@@ -89,7 +89,7 @@
 
     </div>
   </main>
-  <div class="page-popup" id="filters-popup">
+  <div class=" page-popup" id="filters-popup">
 
     <div class="page-shadow"></div>
     <div class="page-group" id="filter-group">
@@ -113,8 +113,9 @@
       </div>
       <div class="filter-item">
         <div>امتیاز</div>
-        <input name="rating" class="star-rating" max="5" oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5"
-          style="--value:2.5" type="range" value="2.5">
+        <input name="rating" class="star-rating" max="5"
+          oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:2.5"
+          type="range" value="2.5">
       </div>
     </div>
   </div>

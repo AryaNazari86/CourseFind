@@ -8,8 +8,8 @@ function showCourseDetails(url) {
   $("#course-details-popup").css("display", "flex").fadeIn(100);
 }
 function closeCourseDetails() {
-  $('#course-iframe').attr('src', '');
-  $('#course-details-popup').fadeOut(100);
+  $("#course-iframe").attr("src", "");
+  $("#course-details-popup").fadeOut(100);
 }
 var courseTitles = document.getElementsByClassName("course-title");
 for (let index = 0; index < courseTitles.length; index++) {
