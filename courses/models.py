@@ -12,15 +12,16 @@ class CourseSource(models.Model):
 
 class Course(models.Model):
     name = models.CharField(max_length=50)
-    price = models.IntegerField()
-    image_url = models.URLField()
-    participants = models.IntegerField(default=0)
-    rating = models.FloatField(default=0)
+    price = models.IntegerField(default=-1)
+    image_url = models.URLField(
+        default='https://learning.unv.org/theme/image.php/mb2aofk/theme/1647859262/course-default')
+    participants = models.IntegerField(default=-1)
+    rating = models.FloatField(default=-1)
     teacher = models.CharField(max_length=50, default='Teacher')
     url = models.URLField()
     source = models.ForeignKey(
         CourseSource, related_name='courses', on_delete=models.CASCADE)
-    description = models.TextField(default='')
+    description = models.TextField(default='No Information')
 
     def __str__(self):
         return self.name

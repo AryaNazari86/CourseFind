@@ -40,7 +40,10 @@
       <i class="ri-search-2-line"></i>
     </button>
   </header>
+  <h3>{{courses.count}} نتیجه</h3>
+
   <main>
+
     <div class="courses">
 
       {% for course in courses%}
@@ -51,7 +54,7 @@
             <div class="bottom">
               <h2 class="course-title">{{course.name}}</h2>
               <div class="provider-logo">
-                <img src="../media/faradars-profile-picture.png" width="30" height="30" />
+                <img src="{{course.source.image.url}}" width="30" height="30" />
                 <p>{{course.source.name}}</p>
               </div>
               {% if course.participants != -1 %}

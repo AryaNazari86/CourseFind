@@ -1,8 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
+import time
 
 requests.get('http://127.0.0.1:8000/del?id=2')
 input('Press Enter To Start: ')
+counter = 1
+
 
 for page in range(1, 55):
     page = requests.get(
@@ -14,6 +17,7 @@ for page in range(1, 55):
         'class': 'col-lg-4 course-col'})
 
     for course in courses:
+        start_time = time.time()
         result = {
             'name': course.find('a')['title'].strip(),
             'image_url': 'https://toplearn.com' + course.find('img')['data-src'],
@@ -45,4 +49,10 @@ for page in range(1, 55):
         response = requests.post(
             'http://127.0.0.1:8000/api/?format=api', json=result)
 
-        print(page, response)
+        if response.status_code != 201:
+            print(10*'=')
+            print(response.text)
+            print(10*'=')
+
+        print(counter, response, time.time() - start_time)
+        counter += 1

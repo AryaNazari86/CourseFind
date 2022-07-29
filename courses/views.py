@@ -31,10 +31,7 @@ def search(request):
     query = Course.objects.filter(name__icontains=request.GET['name'])
 
     # Order
-    if 'order' in request.GET.keys():
-        query.order_by(request.GET['order'])
-    else:
-        query.order_by('price')
+    query = query.order_by(request.GET.get('order') or 'price')
 
     # Filter by price
     if 'min-price' in request.GET.keys() and 'max-price' in request.GET.keys():
