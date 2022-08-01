@@ -82,7 +82,7 @@
               {% else %}
               <p class="price">{{course.price}} تومان</p>
               {% endif %}
-              <button onclick="showCourseDetails('/course/{{course.id}}')">جزییات</button>
+              <button onclick="showCourseDetails('/course/{{course.id}}')">جزئیات</button>
             </div>
       </table>
       {% endfor %}
@@ -95,7 +95,7 @@
   <div class=" page-popup" id="filters-popup">
 
     <div class="page-shadow"></div>
-    <div class="page-group" id="filter-group">
+    <form class="page-group" id="filter-group">
       <button class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
         <i class="ri-close-line"></i>
       </button>
@@ -116,11 +116,12 @@
       </div>
       <div class="filter-item">
         <div>امتیاز</div>
-        <input name="rating" class="star-rating" max="5"
+        <input name="rating" id="rating" class="star-rating" max="5"
           oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:2.5"
           type="range" value="2.5">
       </div>
-    </div>
+      <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
+    </بخ>
   </div>
   <div class="page-popup" id="course-details-popup">
 
