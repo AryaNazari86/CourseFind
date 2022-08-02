@@ -102,26 +102,27 @@
       <div class="filter-item">
         <div>ترتیب</div>
         <select name="order" id="order">
-          <option value="participant-hl">تعداد دانشجو - زیاد به کم</option>
-          <option value="participant-lh">تعداد دانشجو - کم به زیاد</option>
-          <option value="price-hl">قیمت - زیاد به کم</option>
-          <option value="price-lh">قیمت - کم به زیاد</option>
-          <option value="rating-hl">امتیاز - زیاد به کم</option>
+          <option value="-participants">تعداد دانشجو - زیاد به کم</option>
+          <option value="participants">تعداد دانشجو - کم به زیاد</option>
+          <option value="-price">قیمت - زیاد به کم</option>
+          <option value="price">قیمت - کم به زیاد</option>
+          <!--<option value="rating-hl">امتیاز - زیاد به کم</option>-->
         </select>
       </div>
       <div class="filter-item">
         <div>حداکثر قیمت</div>
         <div id="maxPriceValue">۲۵۰۰۰۰۰</div>
-        <input name="maxPrice" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="2500000">
+        <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="2500000">
       </div>
+      <!--
       <div class="filter-item">
         <div>امتیاز</div>
         <input name="rating" id="rating" class="star-rating" max="5"
           oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:2.5"
           type="range" value="2.5">
-      </div>
+      </div>-->
       <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
-    </بخ>
+      </بخ>
   </div>
   <div class="page-popup" id="course-details-popup">
 

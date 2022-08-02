@@ -28,7 +28,10 @@ def SourceDel(request):
 
 # Courses
 def search(request):
-    query = Course.objects.filter(name__icontains=request.GET['name'])
+    if request.GET.get('name') != None:
+        query = Course.objects.filter(name__icontains=request.GET.get('name'))
+    else:
+        query = Course.objects.all()
 
     # Order
     query = query.order_by(request.GET.get('order') or 'price')
@@ -39,14 +42,13 @@ def search(request):
                      price__gte=request.GET['max-price'])
 
     # Filter By participants
-    if 'max-participants' in request.GET.keys() and 'min-participants' in request.GET.keys():
-        query.filter(participants__lte=request.GET['min-participants'],
-                     participants__gte=request.GET['max-participants'])
+    if 'max-participants' in request.GET.keys():
+        query.filter(participants__gte=request.GET['max-participants'])
 
     # Filter By rating
-    if 'max-rating' in request.GET.keys() and 'min-rating' in request.GET.keys():
+    '''if 'max-rating' in request.GET.keys() and 'min-rating' in request.GET.keys():
         query.filter(rating__lte=request.GET['min-rating'],
-                     rating__gte=request.GET['max-rating'])
+                     rating__gte=request.GET['max-rating'])'''
 
     return render(request, 'searchResult.html', {'courses': query})
 
