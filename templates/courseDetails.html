@@ -1,77 +1,78 @@
 <html lang="fa">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>کورس فایند</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="../static/style/all.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <!-- Meta Tags -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>کورس فایند</title>
-  <!-- Styles -->
-  <link rel="stylesheet" href="../static/style/all.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
-</head>
-
-<body dir="rtl">
-
-  <div class="course-details-page">
-    <div class="main">
-      <div class="sidebar">
-        <div class="prodiver-logo-container">
-          <div class="provider-logo">
-            <img src="{{course.source.image.url}}" width="40" height="40" />
-            <p>{{course.source.name}}</p>
+  <body dir="rtl">
+    <div class="course-details-page">
+      <div class="main">
+        <div class="sidebar">
+          <div class="prodiver-logo-container">
+            <div class="provider-logo">
+              <img src="{{course.source.image.url}}" width="40" height="40" />
+              <p>{{course.source.name}}</p>
+            </div>
           </div>
-        </div>
 
-        <img src="{{course.image_url}}" class="course-img" />
-        <p class="course-title">{{course.name}}</p>
-        <div class="user-count">
-          <i class="ri-group-fill"></i>
-          <p>{{course.participants}} دانشجو</p>
-        </div>
-        <div class="course-author">
-          <i class="ri-user-fill"></i>
-          <p>{{course.teacher}}</p>
-        </div>
-        <div class="score-price">
-          <div class="score rating">
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-half-fill"></i>
+          <img src="{{course.image_url}}" class="course-img" />
+          <p class="course-title">{{course.name}}</p>
+          <div class="user-count">
+            <i class="ri-group-fill"></i>
+            <p>{{course.participants}} دانشجو</p>
           </div>
-          <div class="price-container">
-            <p class="price">{{course.price}} تومان</p>
+          <div class="course-author">
+            <i class="ri-user-fill"></i>
+            <p>{{course.teacher}}</p>
           </div>
-        </div>
+          <div class="score-price">
+            <div class="score rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+            <div class="price-container">
+              <p class="price">{{course.price}} تومان</p>
+            </div>
+          </div>
 
-        <button>خرید دوره</button>
-      </div>
-      <div class="description">
-        <div class="logo-header">
-          <h1>اطلاعات دوره</h1>
+          <a href="https://faradars.org/"><button>خرید دوره</button></a>
         </div>
-        <div class="description-text">
-          <p align="justify">
-            {{course.description}}
-          </p>
+        <div class="description">
+          <div class="logo-header">
+            <h1>اطلاعات دوره</h1>
+          </div>
+          <div class="description-text">
+            <p align="justify">{{course.description}}</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <style>
-    body {
-      margin: 0px;
-      overflow-x: hidden;
-    }
-  </style>
+    <style>
+      body {
+        margin: 0px;
+        overflow-x: hidden;
+      }
+    </style>
 
-  <script src="../static/script/lottie.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="../static/script/all.js"></script>
-</body>
-
+    <script src="../static/script/lottie.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../static/script/all.js"></script>
+  </body>
 </html>
