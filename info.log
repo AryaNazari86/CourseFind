@@ -1,0 +1,8 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1608
+"GET /static/style/all.css HTTP/1.1" 200 14289
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/all.js HTTP/1.1" 200 120
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
