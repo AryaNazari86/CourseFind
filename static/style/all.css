@@ -706,6 +706,7 @@ td {
 .course-details-page {
   background-color: white;
   height: 100%;
+  margin-right: 10px;
 }
 
 .courseDetails-header {

@@ -1,6 +1,5 @@
 <html lang="fa">
-
-<head>
+  <head>
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,37 +8,48 @@
     <!-- Styles -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'style/all.css' %}" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../media/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../media/favicon.ico" type="image/x-icon" />
+  </head>
 
-</head>
-
-<body dir="rtl">
+  <body dir="rtl">
     <main class="w-100 h-100">
-        <div class="content">
-            <div class="logo-container">
-                <!-- Logo Image -->
-                <img src="{% static 'media/Test_logo.jpeg' %}" />
-                <!-- Texts -->
-                <div class="header">
-                    <h1>کورس فایند</h1>
-                    <p>مقایسه صد ها دوره آموزشی از منابع مختلف</p>
-                </div>
-            </div>
-            <form method="GET" action="{% url 'search' %}">
-                <div class="search-bar">
-                    <input type="text" name="name" placeholder="جستجو کن..." spellcheck="false" />
-                    <button type="submit">
-                        <i class="ri-search-2-line"></i>
-                    </button>
-                </div>
-
-            </form>
+      <div class="content">
+        <div class="logo-container">
+          <!-- Logo Image -->
+          <img src="{% static 'media/Test_logo.jpeg' %}" />
+          <!-- Texts -->
+          <div class="header">
+            <h1>کورس فایند</h1>
+            <p>مقایسه صد ها دوره آموزشی از منابع مختلف</p>
+          </div>
         </div>
+        <form method="GET" action="{% url 'search' %}">
+          <div class="search-bar">
+            <input
+              type="text"
+              name="name"
+              placeholder="جستجو کن..."
+              spellcheck="false"
+            />
+            <button type="submit">
+              <i class="ri-search-2-line"></i>
+            </button>
+          </div>
+        </form>
+      </div>
     </main>
     <script src="{% static 'script/lottie.min.js' %}"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="{% static 'script/all.js'%}"></script>
-</body>
-
+  </body>
 </html>
