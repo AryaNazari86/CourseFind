@@ -47,10 +47,10 @@
     <div class="courses">
 
       {% for course in courses%}
-      <table class="course">
-        <tr>
-          <td valign="top">
-            <img src="{{course.image_url}}" class="course-image" />
+      <div class="course" style="display: flex; flex-direction: column;">
+        <!-- <tr> -->
+          <!-- <td valign="top"> -->
+            <div style="background-image: url('{{course.image_url}}'); height: 200px; background-size: cover; background-repeat: no-repeat;" class="course-image"></div>
             <div class="bottom">
               <h2 class="course-title">{{course.name}}</h2>
               <div class="provider-logo">
@@ -62,21 +62,24 @@
                 <i class="ri-group-fill"></i>
                 <p>{{course.participants}} دانشجو</p>
               </div>
+              {% else %}
+              <div class="user-count" style="height: 27px;">
+              </div>
               {% endif %}
 
               <div class="rating">
+                <!-- <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-half-fill"></i>
+                <i class="ri-star-half-fill"></i> -->
               </div>
             </div>
-          </td>
-        </tr>
-        <tr>
-          <td valign="top">
-            <div class="footer">
+          <!-- </td> -->
+        <!-- </tr> -->
+        <!-- <tr> -->
+          <!-- <td valign="top"> -->
+            <div class="footer" style="align-self: flex-end; width: 94%; margin-bottom: 8px;">
               {% if course.price == 0 %}
               <p class="price">رایگان!</p>
               {% else %}
@@ -84,11 +87,11 @@
               {% endif %}
               <button onclick="showCourseDetails('/course/{{course.id}}')">جزئیات</button>
             </div>
-      </table>
+      </div>
       {% endfor %}
-      </td>
-      </tr>
-      </table>
+      <!-- </td> -->
+      <!-- </tr> -->
+      <!-- </table> -->
 
     </div>
   </main>
