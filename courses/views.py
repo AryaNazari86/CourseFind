@@ -49,10 +49,11 @@ def search(request):
         query.filter(rating__lte=request.GET['min-rating'],
                      rating__gte=request.GET['max-rating'])'''
 
-    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET["name"], 'searchOrder': request.GET.get('order'), 'searchMaxPrice': request.GET['max-price']})
+    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET.get('name') or '', 'searchOrder': request.GET.get('order') or 'price', 'searchMaxPrice': request.GET.get('max-price') or '2500000'})
 
 
 def course_details(request, id):
     query = Course.objects.get(id=id)
     print(query.price)
+    print(query.description)
     return render(request, 'courseDetails.html', {'course': query})

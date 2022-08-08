@@ -53,15 +53,18 @@
               {% endif %}
             </div>
           </div>
-
+          {% if course.price == 0 %}
+          <a href="{{course.url}}" target="_blank">مشاهده دوره</a>
+          {% else %}
           <a href="{{course.url}}" target="_blank">خرید دوره</a>
+          {% endif %}
         </div>
         <div class="description">
           <div class="logo-header">
             <h1>اطلاعات دوره</h1>
           </div>
           <div class="description-text">
-            <p align="justify">{{course.description}}</p>
+            <p align="justify">{{course.description|safe}}</p>
           </div>
         </div>
       </div>

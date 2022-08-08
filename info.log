@@ -683,3 +683,155 @@ Watching for file changes with StatReloader
 "GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=-price&max-price=350000 HTTP/1.1" 200 196229
 "GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=-price&max-price=350000 HTTP/1.1" 200 196241
 "GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=-price&max-price=350000 HTTP/1.1" 200 196241
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1608
+"GET /static/style/all.css HTTP/1.1" 200 15307
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'max-price'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 52, in search
+    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET["name"], 'searchOrder': request.GET.get('order'), 'searchMaxPrice': request.GET['max-price']})
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'max-price'
+"GET /search/?name=c%23 HTTP/1.1" 500 77146
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'max-price'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 52, in search
+    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET["name"] or '', 'searchOrder': request.GET.get('order') or 'price', 'searchMaxPrice': request.GET['max-price'] or '2500000'})
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'max-price'
+"GET /search/?name=c%23 HTTP/1.1" 500 77266
+"GET / HTTP/1.1" 200 1608
+"GET /static/style/all.css HTTP/1.1" 304 0
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'max-price'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 52, in search
+    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET["name"] or '', 'searchOrder': request.GET.get('order') or 'price', 'searchMaxPrice': request.GET['max-price'] or '2500000'})
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'max-price'
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 HTTP/1.1" 500 77463
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 HTTP/1.1" 200 241415
+"GET /static/style/all.css HTTP/1.1" 304 0
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 52, in search
+    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET["name"] or '', 'searchOrder': request.GET.get('order') or 'price', 'searchMaxPrice': request.GET.get('max-price') or '2500000'})
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+"GET /search/ HTTP/1.1" 500 76684
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/ HTTP/1.1" 200 1740324
+"GET /static/style/all.css HTTP/1.1" 304 0
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=&order=-price&max-price=3350000 HTTP/1.1" 200 1740324
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13322
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /course/1588 HTTP/1.1" 200 4107
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13322
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13322
+- Broken pipe from ('127.0.0.1', 51783)
+
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13322
+"GET /course/1588 HTTP/1.1" 200 4107
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13322
+"GET /course/1588 HTTP/1.1" 200 4107
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13406
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /course/1588 HTTP/1.1" 200 4107
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13406
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /course/1588 HTTP/1.1" 200 4132
+"GET /course/1330 HTTP/1.1" 200 3515
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13406
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /course/1330 HTTP/1.1" 200 3515
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+"GET /static/admin/css/base.css HTTP/1.1" 200 19513
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/css/login.css HTTP/1.1" 200 954
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"GET /course/1330 HTTP/1.1" 200 3515
+"GET /static/style/all.css HTTP/1.1" 304 0
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13406
+"GET /course/1588 HTTP/1.1" 200 4132
