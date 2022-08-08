@@ -19,19 +19,19 @@
   <!-- <div id="loaderContainer">
       <div id="loader"></div>
     </div> -->
-  <form method="GET" action="{% url 'search' %}"></form>
+  <form method="GET" action="{% url 'search' %}">
   <header>
     <a href="{% url 'home' %}" class="logo-header">
       <img src="../media/Test_logo.jpeg" />
       <h1>کورس فایند</h1>
     </a>
 
-    <form class="search-bar" method="GET" action="{% url 'search' %}">
-      <input type="text" value="{{searchvalue}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
+    <div class="search-bar">
+      <input type="text" value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
       <button type="submit">
         <i class="ri-search-2-line"></i>
       </button>
-    </form>
+    </div>
     <div id="filters-btn">
       <i class="ri-equalizer-line"></i>
       فیلتر ها
@@ -95,24 +95,24 @@
   <div class=" page-popup" id="filters-popup">
 
     <div class="page-shadow"></div>
-    <form class="page-group" id="filter-group">
+    <div class="page-group" id="filter-group">
       <button type="button" class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
         <i class="ri-close-line"></i>
       </button>
       <div class="filter-item">
         <div>ترتیب</div>
         <select name="order" id="order">
-          <option value="-participants">تعداد دانشجو - زیاد به کم</option>
-          <option value="participants">تعداد دانشجو - کم به زیاد</option>
-          <option value="-price">قیمت - زیاد به کم</option>
-          <option value="price">قیمت - کم به زیاد</option>
+          <option value="-participants" {% if searchOrder == '-participants'%}selected{% endif %}>تعداد دانشجو - زیاد به کم</option>
+          <option value="participants" {% if searchOrder == 'participants'%}selected{% endif %}>تعداد دانشجو - کم به زیاد</option>
+          <option value="-price" {% if searchOrder == '-price'%}selected{% endif %}>قیمت - زیاد به کم</option>
+          <option value="price" {% if searchOrder == 'price'%}selected{% endif %}>قیمت - کم به زیاد</option>
           <!--<option value="rating-hl">امتیاز - زیاد به کم</option>-->
         </select>
       </div>
       <div class="filter-item">
         <div>حداکثر قیمت</div>
-        <div id="maxPriceValue">۲۵۰۰۰۰۰</div>
-        <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="2500000">
+        <div id="maxPriceValue">{{searchMaxPrice}} تومان</div>
+        <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="{{searchMaxPrice}}">
       </div>
       <!--
       <div class="filter-item">
@@ -122,7 +122,7 @@
           type="range" value="2.5">
       </div>-->
       <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
-      </بخ>
+    </div>
   </div>
   <div class="page-popup" id="course-details-popup">
 
@@ -147,7 +147,6 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/../static/script/resultPage.js"></script>
-
 </body>
 
 </html>

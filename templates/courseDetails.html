@@ -26,10 +26,13 @@
 
           <img src="{{course.image_url}}" class="course-img" />
           <p class="course-title">{{course.name}}</p>
+
+          {% if course.participants != -1 %}
           <div class="user-count">
             <i class="ri-group-fill"></i>
             <p>{{course.participants}} دانشجو</p>
           </div>
+          {% endif %}
           <div class="course-author">
             <i class="ri-user-fill"></i>
             <p>{{course.teacher}}</p>
@@ -43,11 +46,15 @@
               <i class="ri-star-half-fill"></i>
             </div>
             <div class="price-container">
+              {% if course.price == 0 %}
+              <p class="price">رایگان!</p>
+              {% else %}
               <p class="price">{{course.price}} تومان</p>
+              {% endif %}
             </div>
           </div>
 
-          <a href="https://faradars.org/"><button>خرید دوره</button></a>
+          <a href="{{course.url}}" target="_blank">خرید دوره</a>
         </div>
         <div class="description">
           <div class="logo-header">

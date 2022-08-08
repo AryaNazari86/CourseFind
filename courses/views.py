@@ -37,20 +37,19 @@ def search(request):
     query = query.order_by(request.GET.get('order') or 'price')
 
     # Filter by price
-    if 'min-price' in request.GET.keys() and 'max-price' in request.GET.keys():
-        query.filter(price__lte=request.GET['min-price'],
-                     price__gte=request.GET['max-price'])
+    if 'max-price' in request.GET.keys():
+        query = query.filter(price__lte=request.GET['max-price'])
 
-    # Filter By participants
-    if 'max-participants' in request.GET.keys():
-        query.filter(participants__gte=request.GET['max-participants'])
+    # # Filter By participants
+    # if 'max-participants' in request.GET.keys():
+    #     query.filter(participants__gte=request.GET['max-participants'])
 
     # Filter By rating
     '''if 'max-rating' in request.GET.keys() and 'min-rating' in request.GET.keys():
         query.filter(rating__lte=request.GET['min-rating'],
                      rating__gte=request.GET['max-rating'])'''
 
-    return render(request, 'searchResult.html', {'courses': query, 'searchvalue': request.GET['name']})
+    return render(request, 'searchResult.html', {'courses': query, 'searchName': request.GET["name"], 'searchOrder': request.GET.get('order'), 'searchMaxPrice': request.GET['max-price']})
 
 
 def course_details(request, id):
