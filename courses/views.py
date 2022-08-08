@@ -50,7 +50,7 @@ def search(request):
         query.filter(rating__lte=request.GET['min-rating'],
                      rating__gte=request.GET['max-rating'])'''
 
-    return render(request, 'searchResult.html', {'courses': query})
+    return render(request, 'searchResult.html', {'courses': query, 'searchvalue': request.GET['name']})
 
 
 def course_details(request, id):
