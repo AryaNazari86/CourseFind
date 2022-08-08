@@ -802,7 +802,11 @@ td {
   width: 225%;
 }
 
-.course-details-page .sidebar button {
+.course-details-page .sidebar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background-color: #d14045;
   color: #ffffff;
   font-size: 20px;
@@ -819,7 +823,7 @@ td {
   margin-top: 40px;
 }
 
-.course-details-page .sidebar button:hover {
+.course-details-page .sidebar a:hover {
   background-color: #802629;
   cursor: pointer;
 
@@ -871,7 +875,7 @@ td {
     min-height: auto;
   }
 
-  .course-details-page .sidebar button {
+  .course-details-page .sidebar a {
     margin-bottom: 20px;
   }
 
