@@ -6,3 +6,186 @@ Watching for file changes with StatReloader
 "GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
 "GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
 "GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1608
+"GET /static/style/all.css HTTP/1.1" 200 15201
+"GET /static/script/all.js HTTP/1.1" 200 124
+"GET /media/Dropdown-arrow.png HTTP/1.1" 200 158
+"GET /media/loader.gif HTTP/1.1" 200 16650
+"GET /static/script/lottie.min.js HTTP/1.1" 200 279772
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+Watching for file changes with StatReloader
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 35481
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 300
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/resultPage.js HTTP/1.1" 200 744
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/style/range.less HTTP/1.1" 200 871
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3050
+"GET /course/877 HTTP/1.1" 200 3626
+"GET /media/loader.gif HTTP/1.1" 200 16650
+"GET /search/?order=-participants&max-price=2500000 HTTP/1.1" 200 1383927
+"GET /course/725 HTTP/1.1" 200 3604
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3050
+"GET /search/?order=-participants&max-price=2500000 HTTP/1.1" 200 1383927
+"GET /static/script/range.js HTTP/1.1" 200 300
+"GET /static/script/resultPage.js HTTP/1.1" 200 744
+- Broken pipe from ('127.0.0.1', 60214)
+"GET /media/Dropdown-arrow.png HTTP/1.1" 200 158
+"GET /search/?order=-participants&max-price=2460000 HTTP/1.1" 200 1383927
+"GET /search/?order=-participants&max-price=2500000 HTTP/1.1" 200 1383927
+"GET /course/753 HTTP/1.1" 200 3050
+"GET /search/?order=-participants&max-price=2500000 HTTP/1.1" 200 1383927
+"GET /course/687 HTTP/1.1" 200 3604
+"GET /search/?order=-participants&max-price=2500000 HTTP/1.1" 200 1383927
+D:\II Games\Programming\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Python39\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\II Games\Programming\CourseFind\courses\views.py", line 53, in search
+    return render(request, 'searchResult.html', {'courses': query, 'searchvalue': request.GET['name']})
+  File "C:\Python39\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+"GET /search/?order=-participants&max-price=2500000 HTTP/1.1" 500 75288
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1608
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 15201
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 35530
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /course/1081 HTTP/1.1" 200 3427
+"GET /course/1081 HTTP/1.1" 200 3427
+"GET /course/1077 HTTP/1.1" 200 3129
+"GET /course/1072 HTTP/1.1" 200 3194
+"GET /course/1406 HTTP/1.1" 200 3057
+"GET /course/1845 HTTP/1.1" 200 3164
+"GET /course/1707 HTTP/1.1" 200 3592
+"GET /course/1273 HTTP/1.1" 200 4398
+"GET /search/?name= HTTP/1.1" 200 1383964
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET / HTTP/1.1" 200 1608
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /search/?name= HTTP/1.1" 200 1383964
+"GET /course/990 HTTP/1.1" 200 3596
+"GET /search/?name= HTTP/1.1" 200 1393891
+"GET /static/style/all.css HTTP/1.1" 200 15201
+"GET /search/?name= HTTP/1.1" 200 1393891
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 35755
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 35755
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36880
+"GET /static/script/range.js HTTP/1.1" 200 300
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36880
+"GET /static/style/range.less HTTP/1.1" 200 871
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Python39\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python39\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\II Games\Programming\CourseFind\courses\views.py", line 53, in search
+    return render(request, 'searchResult.html', {'courses': query, 'searchvalue': request.GET['name']})
+  File "C:\Python39\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name'
+"GET /search/?order=-price&max-price=2500000 HTTP/1.1" 500 74907
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 37405
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 37405
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 37405
+Watching for file changes with StatReloader
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36930
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36930
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36930
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 15201
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/script/range.js HTTP/1.1" 200 300
+"GET /static/script/resultPage.js HTTP/1.1" 200 744
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3050
+"GET /media/Dropdown-arrow.png HTTP/1.1" 200 158
+"GET /media/loader.gif HTTP/1.1" 200 16650
+"GET / HTTP/1.1" 200 1608
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36380
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36505
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36380
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36505
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36505
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36505
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36880
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 36880
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 38230
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 38230
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 38230
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39685
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39685
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39685
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39685
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /static/style/all.css HTTP/1.1" 200 15201
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 300
+"GET /static/script/resultPage.js HTTP/1.1" 200 744
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3050
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 39735
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 41012
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 43737
+"GET /search/?name=%DB%8C%D9%88%D9%86%DB%8C%D8%AA%DB%8C HTTP/1.1" 200 43737
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1608
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /search/?name=c%23 HTTP/1.1" 200 48969
