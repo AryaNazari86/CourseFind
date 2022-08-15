@@ -836,6 +836,7 @@ Watching for file changes with StatReloader
 "GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13406
 "GET /course/1588 HTTP/1.1" 200 4132
 Watching for file changes with StatReloader
+<<<<<<< Updated upstream
 "GET / HTTP/1.1" 200 2364
 "GET / HTTP/1.1" 200 2364
 "GET /static/style/all.css HTTP/1.1" 200 16408
@@ -1977,10 +1978,93 @@ Traceback (most recent call last):
   File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
     compile_func = self.tags[command]
 KeyError: 'i=1'
+=======
+"GET / HTTP/1.1" 200 1776
+"GET / HTTP/1.1" 200 1776
+"GET /admin/courses/course/ HTTP/1.1" 200 54407
+"GET /static/admin/js/filters.js HTTP/1.1" 200 966
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+"GET /admin/ HTTP/1.1" 200 7327
+"GET /admin/courses/course/ HTTP/1.1" 200 54407
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/ HTTP/1.1" 200 54728
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/ HTTP/1.1" 200 55045
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/ HTTP/1.1" 200 55045
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7356
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/ HTTP/1.1" 200 55045
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/courses/course/1893/change/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/forms.py", line 182, in __getitem__
+    field = self.fields[name]
+KeyError: 'id'
+>>>>>>> Stashed changes
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
+<<<<<<< Updated upstream
   File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
   File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
@@ -3255,3 +3339,436 @@ Watching for file changes with StatReloader
 "GET /static/style/all.css HTTP/1.1" 304 0
 "GET /search/?name=%D8%B3%DB%8C%20%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000&page=3 HTTP/1.1" 200 41981
 "GET /search/?name=%D8%B3%DB%8C%20%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000&page=1 HTTP/1.1" 200 40992
+=======
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/helpers.py", line 156, in __iter__
+    yield AdminField(self.form, field, is_first=(i == 0))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/helpers.py", line 170, in __init__
+    self.field = form[field]  # A django.forms.BoundField instance
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/forms.py", line 184, in __getitem__
+    raise KeyError(
+KeyError: "Key 'id' not found in 'CourseForm'. Choices are: description, image_url, name, participants, price, rating, source, teacher, url."
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 500 438510
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14044
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14044
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14044
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 14033
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13866
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13866
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13883
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13927
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+"GET /admin/courses/course/1893/change/ HTTP/1.1" 200 13927
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7356
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7356
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7677
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7735
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7735
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/add/ HTTP/1.1" 200 7331
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/courses/coursesource/add/ HTTP/1.1" 200 7495
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/courses/coursesource/add/ HTTP/1.1" 302 0
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 8199
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/ HTTP/1.1" 200 55125
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/add/ HTTP/1.1" 200 11793
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/courses/course/add/ HTTP/1.1" 302 0
+"GET /admin/courses/course/ HTTP/1.1" 200 55247
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/courses/coursesource/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py", line 32, in delete_courses
+    source.courses.delete()
+AttributeError: 'RelatedManager' object has no attribute 'delete'
+"POST /admin/courses/coursesource/ HTTP/1.1" 500 100403
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/courses/coursesource/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py", line 32, in delete_courses
+    source.courses.objects.all().delete()
+AttributeError: 'RelatedManager' object has no attribute 'objects'
+"POST /admin/courses/coursesource/ HTTP/1.1" 500 100435
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/courses/coursesource/ HTTP/1.1" 302 0
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 8086
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/3/change/ HTTP/1.1" 200 7861
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/course/ HTTP/1.1" 200 55125
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/courses/coursesource/ HTTP/1.1" 200 5837
+"POST /admin/courses/coursesource/ HTTP/1.1" 302 0
+"GET /admin/courses/coursesource/ HTTP/1.1" 200 7878
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/admin.py changed, reloading.
+Watching for file changes with StatReloader
+>>>>>>> Stashed changes
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2392
+"GET /static/script/all.js HTTP/1.1" 200 120
+"GET /static/style/all.css HTTP/1.1" 200 16082
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/lottie.min.js HTTP/1.1" 200 279771
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /search?name=%D8%B3%DB%8C HTTP/1.1" 301 0
+"GET /search/?name=%D8%B3%DB%8C HTTP/1.1" 200 42072
+"GET /static/style/star-rating.css HTTP/1.1" 200 1636
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/resultPage.js HTTP/1.1" 200 865
+"GET /static/script/range.js HTTP/1.1" 200 308
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/less.js HTTP/1.1" 200 476811
+"GET /static/style/range.less HTTP/1.1" 200 836
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=python HTTP/1.1" 200 42100
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/paginator.py", line 48, in validate_number
+    number = int(number)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py", line 63, in search
+    'currentPage': page.page(request.GET.get('page')),
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/paginator.py", line 75, in page
+    number = self.validate_number(number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise PageNotAnInteger(_("That page number is not an integer"))
+django.core.paginator.PageNotAnInteger: That page number is not an integer
+"GET /search/?name=python HTTP/1.1" 500 74311
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/paginator.py", line 48, in validate_number
+    number = int(number)
+ValueError: invalid literal for int() with base 10: 'page'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py", line 58, in search
+    'courses': page.page('page').object_list,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/paginator.py", line 75, in page
+    number = self.validate_number(number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise PageNotAnInteger(_("That page number is not an integer"))
+django.core.paginator.PageNotAnInteger: That page number is not an integer
+"GET /search/?name=python HTTP/1.1" 500 73938
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py", line 56, in search
+    return render(request, 'searchResult.html',
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+"GET /search/?name=python HTTP/1.1" 500 128330
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=python HTTP/1.1" 200 42085
+"GET /static/script/range.js HTTP/1.1" 200 308
+"GET /static/script/resultPage.js HTTP/1.1" 200 865
+"GET /static/style/all.css HTTP/1.1" 200 16082
+"GET /static/style/star-rating.css HTTP/1.1" 200 1636
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/less.js HTTP/1.1" 200 476811
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/style/range.less HTTP/1.1" 200 836
+"GET /search/?name=python&order=price&max-price=2500000&page=2 HTTP/1.1" 200 42117
+"GET /search/?name=python&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42085
+"GET /search/?name=python&order=price&max-price=2500000&page=3 HTTP/1.1" 200 19615
+"GET /search/?name=python&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42085
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=python&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42085
+/Users/aryanazari/Programming/Projects/CourseFind/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=python&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42100
+"GET /search/?name=python&order=price&max-price=2500000&page=2 HTTP/1.1" 200 42132

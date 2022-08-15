@@ -1,9 +1,8 @@
-from urllib import response
 from django.shortcuts import render, HttpResponse
 from courses.models import Course
 from rest_framework.generics import ListCreateAPIView
 from courses import serializers
-
+from django.core.paginator import Paginator
 
 def home(request):
     return render(request, 'index.html')
@@ -51,41 +50,21 @@ def search(request):
     # All courses count
     coursesCount = query.count()
     # Pagination
-    take = 20
-    pagesCount = (query.count() // take)
-    if query.count() % take != 0:
-        pagesCount += 1
-    if request.GET.get('page') == None or int(request.GET.get('page')) < 1 or int(request.GET.get('page')) > pagesCount:
-        page = 1
-    else:
-        page = int(request.GET.get('page'))
-    skip = (int(page) - 1) * take
-    query = query[skip:skip + take]
+    page = Paginator(query, 20)
 
-    pages = []
-    for i in range(1, 4):
-        if page - i > 0:
-            pages.append(page - i)
-    pages.append(page)
-    for i in range(1, 4):
-        if page + i <= pagesCount:
-            pages.append(page + i)
-    pages.sort()
 
     return render(request, 'searchResult.html', 
     {
-        'courses': query,
+        'courses': page.page(request.GET.get('page') or 1).object_list,
         'coursesCount': coursesCount,
         'searchName': request.GET.get('name') or '',
         'searchOrder': request.GET.get('order') or 'price',
         'searchMaxPrice': request.GET.get('max-price') or '2500000',
-        'currentPage': page,
-        'pages': pages
+        'currentPage': int(request.GET.get('page') or 1),
+        'pages': page.page_range
     })
 
 
 def course_details(request, id):
     query = Course.objects.get(id=id)
-    print(query.price)
-    print(query.description)
     return render(request, 'courseDetails.html', {'course': query})
