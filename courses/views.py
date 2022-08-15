@@ -52,13 +52,25 @@ def search(request):
     coursesCount = query.count()
     # Pagination
     take = 20
-    pagesCount = query.count() // take
-    if request.GET.get('page') == None or int(request.GET.get('page')) < 0 or int(request.GET.get('page')) > query.count() // take:
-        page = 0
+    pagesCount = (query.count() // take)
+    if query.count() % take != 0:
+        pagesCount += 1
+    if request.GET.get('page') == None or int(request.GET.get('page')) < 1 or int(request.GET.get('page')) > pagesCount:
+        page = 1
     else:
         page = int(request.GET.get('page'))
-    skip = int(page) * take
+    skip = (int(page) - 1) * take
     query = query[skip:skip + take]
+
+    pages = []
+    for i in range(1, 4):
+        if page - i > 0:
+            pages.append(page - i)
+    pages.append(page)
+    for i in range(1, 4):
+        if page + i <= pagesCount:
+            pages.append(page + i)
+    pages.sort()
 
     return render(request, 'searchResult.html', 
     {
@@ -67,9 +79,8 @@ def search(request):
         'searchName': request.GET.get('name') or '',
         'searchOrder': request.GET.get('order') or 'price',
         'searchMaxPrice': request.GET.get('max-price') or '2500000',
-        'currentPage': request.GET.get('page'),
-        'pagesCount': pagesCount,
-        'pages': range(pagesCount + 1)
+        'currentPage': page,
+        'pages': pages
     })
 
 

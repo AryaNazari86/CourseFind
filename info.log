@@ -1753,3 +1753,1505 @@ Watching for file changes with StatReloader
 "GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
 "GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
 "GET /static/style/all.css HTTP/1.1" 200 16832
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42554
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 16832
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42553
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 16832
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42592
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42553
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 17095
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42553
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 17113
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42553
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1485, in do_with
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'with' expected at least one variable assignment
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 193646
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 214063
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'i=1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 202: 'i=1', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 192769
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'i=1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 202: 'i=1', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 192769
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'i=1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 202: 'i=1', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 192771
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213012
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213892
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213892
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213892
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213892
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213892
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'while'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 1492, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 203: 'while', expected 'endwith'. Did you forget to register or load this tag?
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 213875
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42260
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=0 HTTP/1.1" 200 42215
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 72, in search
+    return render(request, 'searchResult.html',
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 701, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' + 1' from 'page + 1'
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=0 HTTP/1.1" 500 207835
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=0 HTTP/1.1" 200 42215
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 200 17115
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 17115
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 200 17095
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=2 HTTP/1.1" 200 42361
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=4 HTTP/1.1" 200 42476
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=3 HTTP/1.1" 200 42450
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=3 HTTP/1.1" 200 42450
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=5 HTTP/1.1" 200 42530
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=8 HTTP/1.1" 200 21284
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=7 HTTP/1.1" 200 42145
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=6 HTTP/1.1" 200 42525
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=5 HTTP/1.1" 200 42530
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=4 HTTP/1.1" 200 42476
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=1 HTTP/1.1" 200 42215
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=&order=price&max-price=2500000 HTTP/1.1" 200 42214
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/style/all.css HTTP/1.1" 200 17116
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=&order=price&max-price=2500000&page=4 HTTP/1.1" 200 41349
+"GET /search/?name=&order=price&max-price=2500000&page=7 HTTP/1.1" 200 41735
+"GET /search/?name=&order=price&max-price=2500000&page=10 HTTP/1.1" 200 41395
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 304 0
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42215
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=4 HTTP/1.1" 200 42476
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=7 HTTP/1.1" 200 42145
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=8 HTTP/1.1" 200 21284
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000&page=5 HTTP/1.1" 200 42530
+"GET /search/?name=xamarin&order=price&max-price=2500000 HTTP/1.1" 200 17325
+"GET /search/?name=%D8%B3%DB%8C+%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000 HTTP/1.1" 200 40992
+"GET /search/?name=%D8%B3%DB%8C%20%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000&page=4 HTTP/1.1" 200 21254
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D8%B3%DB%8C%20%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000&page=3 HTTP/1.1" 200 41981
+"GET /search/?name=%D8%B3%DB%8C%20%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000&page=1 HTTP/1.1" 200 40992
