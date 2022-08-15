@@ -22,28 +22,124 @@
   <!-- <div id="loaderContainer">
       <div id="loader"></div>
     </div> -->
-  <form method="GET" action="{% url 'search' %}">
-  <header>
-    <a href="{% url 'home' %}" class="logo-header">
-      <img src="../media/Test_logo.jpeg" />
-      <h1>کورس فایند</h1>
-    </a>
+    <form id="desktop-search" method="GET" action="{% url 'search' %}">
+      <header>
+        <a href="{% url 'home' %}" class="logo-header">
+          <img src="../media/Test_logo.jpeg" />
+          <h1>کورس فایند</h1>
+        </a>
+        <div class="search-bar result-search-bar">
+          <input type="text"
+          value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
+          <button type="submit">
+            <i class="ri-search-2-line"></i>
+          </button>
+        </div>
+        <div id="leftMenu">
+          <div id="filters-btn">
+            <i class="ri-equalizer-line"></i>
+            فیلتر ها
+          </div>
+      </div>
+      </header>
+      <div class="page-popup" id="filters-popup">
 
-    <div class="search-bar result-search-bar">
-      <input type="text" value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
-      <button type="submit">
-        <i class="ri-search-2-line"></i>
-      </button>
-    </div>
-    <div id="filters-btn">
-      <i class="ri-equalizer-line"></i>
-      فیلتر ها
-    </div>
-    <button type="button" id="search-bar-mobile">
-      <i class="ri-search-2-line"></i>
-    </button>
-  </header>
-  <h3 id="resultsCount">{{courses.count}} نتیجه</h3>
+        <div class="page-shadow"></div>
+        <div class="page-group" id="filter-group">
+          <button type="button" class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
+            <i class="ri-close-line"></i>
+          </button>
+          <div class="filter-item">
+            <div>ترتیب</div>
+            <select name="order" id="order">
+              <option value="-participants" {% if searchOrder == '-participants'%}selected{% endif %}>تعداد دانشجو - زیاد به کم</option>
+              <option value="participants" {% if searchOrder == 'participants'%}selected{% endif %}>تعداد دانشجو - کم به زیاد</option>
+              <option value="-price" {% if searchOrder == '-price'%}selected{% endif %}>قیمت - زیاد به کم</option>
+              <option value="price" {% if searchOrder == 'price'%}selected{% endif %}>قیمت - کم به زیاد</option>
+              <!--<option value="rating-hl">امتیاز - زیاد به کم</option>-->
+            </select>
+          </div>
+          <div class="filter-item">
+            <div>حداکثر قیمت</div>
+            <div id="maxPriceValue">{{searchMaxPrice}} تومان</div>
+            <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="{{searchMaxPrice}}">
+          </div>
+          <!--
+          <div class="filter-item">
+            <div>امتیاز</div>
+            <input name="rating" id="rating" class="star-rating" max="5"
+              oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:2.5"
+              type="range" value="2.5">
+          </div>-->
+          <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
+        </div>
+      </div>
+    </form>
+    <form id="mobile-search" method="GET" action="{% url 'search' %}">
+      <header>
+        <a href="{% url 'home' %}" class="logo-header">
+          <img src="../media/Test_logo.jpeg" />
+          <h1>کورس فایند</h1>
+        </a>
+        <div id="leftMenu">
+          <div id="filters-btn">
+            <i class="ri-equalizer-line"></i>
+            فیلتر ها
+          </div>
+        <button type="button" id="search-bar-mobile">
+          <i class="ri-search-2-line"></i>
+        </button>
+      </div>
+      </header>
+      <div class="page-popup" id="filters-popup">
+
+        <div class="page-shadow"></div>
+        <div class="page-group" id="filter-group">
+          <button type="button" class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
+            <i class="ri-close-line"></i>
+          </button>
+          <div class="filter-item">
+            <div>ترتیب</div>
+            <select name="order" id="order">
+              <option value="-participants" {% if searchOrder == '-participants'%}selected{% endif %}>تعداد دانشجو - زیاد به کم</option>
+              <option value="participants" {% if searchOrder == 'participants'%}selected{% endif %}>تعداد دانشجو - کم به زیاد</option>
+              <option value="-price" {% if searchOrder == '-price'%}selected{% endif %}>قیمت - زیاد به کم</option>
+              <option value="price" {% if searchOrder == 'price'%}selected{% endif %}>قیمت - کم به زیاد</option>
+              <!--<option value="rating-hl">امتیاز - زیاد به کم</option>-->
+            </select>
+          </div>
+          <div class="filter-item">
+            <div>حداکثر قیمت</div>
+            <div id="maxPriceValue">{{searchMaxPrice}} تومان</div>
+            <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="{{searchMaxPrice}}">
+          </div>
+          <!--
+          <div class="filter-item">
+            <div>امتیاز</div>
+            <input name="rating" id="rating" class="star-rating" max="5"
+              oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:2.5"
+              type="range" value="2.5">
+          </div>-->
+          <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
+        </div>
+      </div>
+      <div class="page-popup" id="search-popup">
+    
+        <div class="page-shadow"></div>
+        <div class="page-group" id="search-group">
+          <button type="button" class="closeBtn" onclick="$('#search-popup').fadeOut(100);">
+            <i class="ri-close-line"></i>
+          </button>
+          <div class="search-bar">
+            <input type="text" value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
+            <button type="submit">
+              <i class="ri-search-2-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  <h3 id="resultsCount">{{coursesCount}} نتیجه</h3>
 
   <main>
 
@@ -102,54 +198,6 @@
   {% for page in pages%}
   <a href="/search/?name={{searchName}}&order={{searchOrder}}&max-price={{searchMaxPrice}}&page={{page}}">{{page}}</a>
   {% endfor %}
-  <div class="page-popup" id="filters-popup">
-
-    <div class="page-shadow"></div>
-    <div class="page-group" id="filter-group">
-      <button type="button" class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
-        <i class="ri-close-line"></i>
-      </button>
-      <div class="filter-item">
-        <div>ترتیب</div>
-        <select name="order" id="order">
-          <option value="-participants" {% if searchOrder == '-participants'%}selected{% endif %}>تعداد دانشجو - زیاد به کم</option>
-          <option value="participants" {% if searchOrder == 'participants'%}selected{% endif %}>تعداد دانشجو - کم به زیاد</option>
-          <option value="-price" {% if searchOrder == '-price'%}selected{% endif %}>قیمت - زیاد به کم</option>
-          <option value="price" {% if searchOrder == 'price'%}selected{% endif %}>قیمت - کم به زیاد</option>
-          <!--<option value="rating-hl">امتیاز - زیاد به کم</option>-->
-        </select>
-      </div>
-      <div class="filter-item">
-        <div>حداکثر قیمت</div>
-        <div id="maxPriceValue">{{searchMaxPrice}} تومان</div>
-        <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="{{searchMaxPrice}}">
-      </div>
-      <!--
-      <div class="filter-item">
-        <div>امتیاز</div>
-        <input name="rating" id="rating" class="star-rating" max="5"
-          oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)" step="0.5" style="--value:2.5"
-          type="range" value="2.5">
-      </div>-->
-      <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
-    </div>
-  </div>
-
-  <!-- <div class="page-popup" id="search-popup">
-
-    <div class="page-shadow"></div>
-    <div class="page-group" id="search-group">
-      <button type="button" class="closeBtn" onclick="$('#search-popup').fadeOut(100);">
-        <i class="ri-close-line"></i>
-      </button>
-      <div class="search-bar">
-        <input type="text" value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
-        <button type="submit">
-          <i class="ri-search-2-line"></i>
-        </button>
-      </div>
-    </div>
-  </div> -->
 
   <div class="page-popup" id="course-details-popup">
 
@@ -165,7 +213,6 @@
     </div>
   </div>
 
-  </form>
   <!-- <script src="{% static '/script/resultPage.js' %}"></script> -->
   <script src="../static/script/less.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@persian-tools/persian-tools/build/persian-tools.umd.js"></script>

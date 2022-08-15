@@ -310,7 +310,7 @@ header > form {
 }
 
 .search-bar > button,
-.search-bar-submit {
+#search-bar-mobile {
   background-color: #d14045;
   border: none;
   outline: none;
@@ -323,12 +323,17 @@ header > form {
   display: block;
 }
 
-.search-bar-submit {
+#mobile-search{
   display: none;
 }
 
+#search-bar-mobile {
+  display: none;
+  margin: 0 20px;
+}
+
 .search-bar > button > i,
-.search-bar-submit > i {
+#search-bar-mobile > i {
   font-size: 24px;
   color: #fff;
 }
@@ -393,20 +398,50 @@ header > form {
   align-items: center;
 }
 
-@media (max-width: 576px) {
+#desktop-search{
+  display: block;
+}
+
+@media (max-width: 900px) {
   .page-popup > .page-group {
     width: 80vw;
     height: 60vh;
   }
 
-  .search-bar-submit {
+  #mobile-search{
+    display: block;
+  }
+
+  #search-bar-mobile {
     display: block;
     position: relative;
   }
 
-  .search-bar > button {
+  #desktop-search{
     display: none;
   }
+
+  .result-search-bar > button {
+    display: none;
+  }
+}
+
+#leftMenu{
+  display: flex;
+  flex-direction: row;
+}
+
+#search-popup{
+  align-items: center;
+  justify-content: center;
+}
+
+#search-group{
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 #filters-popup > #filter-group > .filter-item > div {
@@ -448,7 +483,7 @@ header > form {
 /* Search result page */
 .course {
   width: 20vw;
-  height: 450px;
+  height: 400px;
 
   background-color: #dedede;
   box-shadow: 0px 0px 15px 1px rgba(147, 147, 147, 1);
@@ -961,4 +996,10 @@ td {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #3b3737;
+}
+
+#resultsCount{
+  color: #3b3737;
+  margin-right: 20px;
+  font-size: 24px;
 }
