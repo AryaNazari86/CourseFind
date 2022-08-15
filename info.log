@@ -1525,3 +1525,231 @@ Watching for file changes with StatReloader
 "GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
 "GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
 "GET /static/style/range.less HTTP/1.1" 200 871
+"GET /search/?name=%D8%B3%DB%8C%20%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000&page=3 HTTP/1.1" 200 20553
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?order=price&max-price=2500000&name=%D8%B3%DB%8C+%D8%B4%D8%A7%D8%B1%D9%BE2 HTTP/1.1" 200 7283
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=xamarin&order=price&max-price=2500000 HTTP/1.1" 200 16842
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=&order=price&max-price=2500000 HTTP/1.1" 200 44521
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=&order=price&max-price=2500000&page=55 HTTP/1.1" 200 16094
+"GET /search/?name=&order=price&max-price=2500000&page=0 HTTP/1.1" 200 44521
+"GET /search/?name=kajskldasda&order=price&max-price=2500000 HTTP/1.1" 200 7274
+"GET /search/?name=kajskldasda&order=price&max-price=2500000&page=0 HTTP/1.1" 200 7274
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=kajskldasda&order=price&max-price=2500000&page=0 HTTP/1.1" 200 7187
+"GET /static/script/resultPage.js HTTP/1.1" 304 0
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=kajskldasda&order=price&max-price=2500000&page=0 HTTP/1.1" 200 7187
+"GET /search/?name=%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 40295
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ohammadijikandi\CourseFind\courses\views.py", line 63, in search
+    return render(request, 'searchResult.html', {'courses': query, 'coursesCount': coursesCount, 'searchName': request.GET.get('name') or '', 'searchOrder': request.GET.get('order') or 'price', 'searchMaxPrice': request.GET.get('max-price') or '2500000', 'currentPage': request.GET.get('page'), 'pagesCount': pagesCount})
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\God-00.11\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 840, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for page in range pagesCount
+"GET /search/?name=%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 500 182769
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/script/resultPage.js HTTP/1.1" 304 0
+"GET /search/?name=%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 41015
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=asdasda&order=price&max-price=2500000 HTTP/1.1" 200 7179
+"GET /search/?name=asdasda&order=price&max-price=2500000 HTTP/1.1" 200 7229
+"GET /static/script/resultPage.js HTTP/1.1" 304 0
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /media/NotFound.gif HTTP/1.1" 200 374678
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /search/?name=asdasda&order=price&max-price=2500000 HTTP/1.1" 200 7248
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 16804
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/NotFound.gif HTTP/1.1" 200 374678
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 16802
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/all.css HTTP/1.1" 200 16806
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/style/all.css HTTP/1.1" 200 16806
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/style/all.css HTTP/1.1" 200 16806
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/all.css HTTP/1.1" 200 16831
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/all.css HTTP/1.1" 200 16832
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/style/all.css HTTP/1.1" 200 16832
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /media/favicon.ico HTTP/1.1" 200 1150
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/all.css HTTP/1.1" 200 16832
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 871
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86&order=price&max-price=2500000 HTTP/1.1" 200 42482
+"GET /static/style/all.css HTTP/1.1" 200 16832

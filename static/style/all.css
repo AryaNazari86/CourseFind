@@ -978,7 +978,7 @@ td {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
 }
 
 /* Track */
@@ -991,6 +991,7 @@ td {
 ::-webkit-scrollbar-thumb {
   background: #605959;
   border-radius: 26px;
+  border: 4px solid #dedede;
 }
 
 /* Handle on hover */
@@ -1002,4 +1003,9 @@ td {
   color: #3b3737;
   margin-right: 20px;
   font-size: 24px;
+}
+
+#NotFoundImage{
+  width: 500px;
+  max-width: 100%;
 }

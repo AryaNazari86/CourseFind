@@ -144,60 +144,64 @@
   <main>
 
     <div class="courses">
+      {% if courses.count > 0 %}
+        {% for course in courses%}
+        <div class="course" style="display: flex; flex-direction: column;">
+          <!-- <tr> -->
+            <!-- <td valign="top"> -->
+              <div style="background-image: url('{{course.image_url}}'); height: 200px; background-size: cover; background-repeat: no-repeat; background-position: center center;" class="course-image"></div>
+              <div class="bottom">
+                <h2 class="course-title">{{course.name}}</h2>
+                <div class="provider-logo">
+                  <img src="{{course.source.image.url}}" width="30" height="30" />
+                  <p>{{course.source.name}}</p>
+                </div>
+                {% if course.participants != -1 %}
+                <div class="user-count">
+                  <i class="ri-group-fill"></i>
+                  <p>{{course.participants}} دانشجو</p>
+                </div>
+                {% else %}
+                <div class="user-count" style="height: 27px;">
+                </div>
+                {% endif %}
 
-      {% for course in courses%}
-      <div class="course" style="display: flex; flex-direction: column;">
-        <!-- <tr> -->
-          <!-- <td valign="top"> -->
-            <div style="background-image: url('{{course.image_url}}'); height: 200px; background-size: cover; background-repeat: no-repeat; background-position: center center;" class="course-image"></div>
-            <div class="bottom">
-              <h2 class="course-title">{{course.name}}</h2>
-              <div class="provider-logo">
-                <img src="{{course.source.image.url}}" width="30" height="30" />
-                <p>{{course.source.name}}</p>
+                <div class="rating">
+                  <!-- <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-fill"></i> -->
+                </div>
               </div>
-              {% if course.participants != -1 %}
-              <div class="user-count">
-                <i class="ri-group-fill"></i>
-                <p>{{course.participants}} دانشجو</p>
+            <!-- </td> -->
+          <!-- </tr> -->
+          <!-- <tr> -->
+            <!-- <td valign="top"> -->
+              <div class="footer" style="align-self: flex-end; width: 94%; margin-bottom: 8px;">
+                {% if course.price == 0 %}
+                <p class="price">رایگان!</p>
+                {% else %}
+                <p class="price">{{course.price}} تومان</p>
+                {% endif %}
+                <button type="button" onclick="showCourseDetails('/course/{{course.id}}')">جزئیات</button>
               </div>
-              {% else %}
-              <div class="user-count" style="height: 27px;">
-              </div>
-              {% endif %}
-
-              <div class="rating">
-                <!-- <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-half-fill"></i> -->
-              </div>
-            </div>
-          <!-- </td> -->
-        <!-- </tr> -->
-        <!-- <tr> -->
-          <!-- <td valign="top"> -->
-            <div class="footer" style="align-self: flex-end; width: 94%; margin-bottom: 8px;">
-              {% if course.price == 0 %}
-              <p class="price">رایگان!</p>
-              {% else %}
-              <p class="price">{{course.price}} تومان</p>
-              {% endif %}
-              <button type="button" onclick="showCourseDetails('/course/{{course.id}}')">جزئیات</button>
-            </div>
-      </div>
-      {% endfor %}
+        </div>
+        {% endfor %}
+      {% else %}
+        <img id="NotFoundImage" src="../media/NotFound.gif" />
+      {% endif %}
       <!-- </td> -->
       <!-- </tr> -->
       <!-- </table> -->
 
     </div>
   </main>
-  
-  {% for page in pages%}
-  <a href="/search/?name={{searchName}}&order={{searchOrder}}&max-price={{searchMaxPrice}}&page={{page}}">{{page}}</a>
-  {% endfor %}
+  {% if pagesCount != 0%}
+    {% for page in pages%}
+      <a href="/search/?name={{searchName}}&order={{searchOrder}}&max-price={{searchMaxPrice}}&page={{page}}">{{page}}</a>
+    {% endfor %}
+  {% endif %}
 
   <div class="page-popup" id="course-details-popup">
 
