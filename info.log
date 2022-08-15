@@ -835,3 +835,4 @@ E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET /search/?name=xamarin&order=-price&max-price=3350000 HTTP/1.1" 200 13406
 "GET /course/1588 HTTP/1.1" 200 4132
+Watching for file changes with StatReloader
