@@ -3,6 +3,8 @@ from courses.models import Course
 from rest_framework.generics import ListCreateAPIView
 from courses import serializers
 from django.core.paginator import Paginator
+from django.contrib.auth.decorators import permission_required
+
 
 def home(request):
     return render(request, 'index.html')
@@ -12,8 +14,6 @@ def about(request):
     return render(request, 'about.html')
 
 # API
-
-
 class CourseList(ListCreateAPIView):
     serializer_class = serializers.Course
     queryset = Course.objects.all()

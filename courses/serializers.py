@@ -13,7 +13,9 @@ class Course(serializers.ModelSerializer):
     source = CourseSource()
     description = serializers.CharField()
 
+
     class Meta:
         model = Course
         fields = ('name', 'price', 'image_url', 'source', 'teacher',
                   'url', 'price', 'participants', 'description')
+    
