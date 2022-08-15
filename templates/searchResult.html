@@ -29,7 +29,7 @@
       <h1>کورس فایند</h1>
     </a>
 
-    <div class="search-bar">
+    <div class="search-bar result-search-bar">
       <input type="text" value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
       <button type="submit">
         <i class="ri-search-2-line"></i>
@@ -39,11 +39,11 @@
       <i class="ri-equalizer-line"></i>
       فیلتر ها
     </div>
-    <button type="submit" class="search-bar-submit">
+    <button type="button" id="search-bar-mobile">
       <i class="ri-search-2-line"></i>
     </button>
   </header>
-  <h3>{{courses.count}} نتیجه</h3>
+  <h3 id="resultsCount">{{courses.count}} نتیجه</h3>
 
   <main>
 
@@ -98,7 +98,11 @@
 
     </div>
   </main>
-  <div class=" page-popup" id="filters-popup">
+  
+  {% for page in pages%}
+  <a href="/search/?name={{searchName}}&order={{searchOrder}}&max-price={{searchMaxPrice}}&page={{page}}">{{page}}</a>
+  {% endfor %}
+  <div class="page-popup" id="filters-popup">
 
     <div class="page-shadow"></div>
     <div class="page-group" id="filter-group">
@@ -130,6 +134,23 @@
       <button type="submit" id="filter-submit-button" class="filter-submit-button">جستجو</button>
     </div>
   </div>
+
+  <!-- <div class="page-popup" id="search-popup">
+
+    <div class="page-shadow"></div>
+    <div class="page-group" id="search-group">
+      <button type="button" class="closeBtn" onclick="$('#search-popup').fadeOut(100);">
+        <i class="ri-close-line"></i>
+      </button>
+      <div class="search-bar">
+        <input type="text" value="{{searchName}}" name="name" placeholder="جستجو کن..." spellcheck="false" />
+        <button type="submit">
+          <i class="ri-search-2-line"></i>
+        </button>
+      </div>
+    </div>
+  </div> -->
+
   <div class="page-popup" id="course-details-popup">
 
     <div class="page-shadow"></div>
