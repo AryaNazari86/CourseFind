@@ -5,5 +5,5 @@ urlpatterns = [
     path('', home, name='home'),
     path('course/<int:id>', course_details, name='course'),
     path('api/', CourseList.as_view()),
-    path('del/', SourceDel)
+    path('del/', SourceDel.as_view())
 ]

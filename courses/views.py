@@ -1,10 +1,14 @@
 from django.shortcuts import render, HttpResponse
 from courses.models import Course
-from rest_framework.generics import ListCreateAPIView
 from courses import serializers
 from django.core.paginator import Paginator
 from django.contrib.auth.decorators import permission_required
 
+from rest_framework.generics import ListCreateAPIView
+from rest_framework.views import APIView
+from rest_framework_api_key.permissions import HasAPIKey
+from rest_framework.response import Response
+from rest_framework_api_key.models import APIKey
 
 def home(request):
     return render(request, 'index.html')
@@ -18,11 +22,14 @@ class CourseList(ListCreateAPIView):
     serializer_class = serializers.Course
     queryset = Course.objects.all()
 
-
-def SourceDel(request):
+class SourceDel(APIView):
     # TODO:Change this to post
-    Course.objects.filter(source__id=request.GET['id']).delete()
-    return HttpResponse('!')
+    permission_classes = [HasAPIKey]
+
+    def post(self, request):
+        print(request.POST, request.headers)
+        Course.objects.filter(source__id=request.data['id']).delete()
+        return Response('!')
 
 
 # Courses

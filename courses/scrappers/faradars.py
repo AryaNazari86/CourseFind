@@ -2,10 +2,16 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
-requests.get('http://127.0.0.1:8000/del?id=1')
+requests.post(
+    'http://127.0.0.1:8000/del/',
+    data={'id': 1},
+    headers={'Authorization': 'Api-Key RPCunKp4.zj9kDA5L0AO9sMM1mMapl1SRDmAZ8giH'}
+)
+
 input('Press Enter To Start: ')
-counter = 1
 start_time = time.time()
+
+courses = []
 
 for page in range(34):
     page = requests.get(
@@ -46,13 +52,12 @@ for page in range(34):
         result['description'] = course_page.find(
             'section', attrs={'id': 'course-navigation-summary'}).find('p').text.strip()
 
-        response = requests.post(
-            'http://127.0.0.1:8000/api/?format=api', json=result)
+        courses.append(result)
 
-        if response.status_code != 201:
-            print(10*'=')
-            print(response.text)
-            print(10*'=')
+response = requests.post(
+    'http://127.0.0.1:8000/api/?format=api',
+    data=courses,
+    headers={'Authorization': 'Api-Key RPCunKp4.zj9kDA5L0AO9sMM1mMapl1SRDmAZ8giH'}
+)
 
-        print(counter, response, time.time() - start_time)
-        counter += 1
+print(response, time.time() - start_time)

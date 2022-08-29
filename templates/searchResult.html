@@ -197,7 +197,8 @@
 
     </div>
   </main>
-  <div id="pagination">
+  {% if courses.count > 0 %}
+    <div id="pagination">
     {% for page in pages %}
       {% if page == currentPage %}
         <a class="active" href="/search/?name={{searchName}}&order={{searchOrder}}&max-price={{searchMaxPrice}}&page={{page}}">{{page}}</a>
@@ -205,6 +206,8 @@
         <a href="/search/?name={{searchName}}&order={{searchOrder}}&max-price={{searchMaxPrice}}&page={{page}}">{{page}}</a>
       {% endif %}
     {% endfor %}
+  </div>
+  {% endif %}
 
   <div class="page-popup" id="course-details-popup">
 
