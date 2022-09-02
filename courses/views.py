@@ -61,7 +61,8 @@ def search(request):
         'searchOrder': request.GET.get('order') or 'price',
         'searchMaxPrice': request.GET.get('max-price') or '2500000',
         'currentPage': int(request.GET.get('page') or 1),
-        'pages': page.page_range
+        'pages': page.page_range,
+        'pagesCount': page.num_pages
     })
 
 
