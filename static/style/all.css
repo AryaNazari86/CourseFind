@@ -186,6 +186,9 @@ header > form {
 }
 
 .search-categories a {
+  display: flex;
+  align-items: center;
+  height: 100%;
   text-decoration: none;
   color: black;
   font-size: 17px;
@@ -231,7 +234,7 @@ header > form {
 
   .search-categories a {
     font-size: 20px;
-
+    height: auto;
     margin-left: 24px;
     margin-bottom: 10px;
     transition: 0.25s;

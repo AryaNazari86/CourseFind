@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-    $("#loaderContainer").fadeOut();
-    animation.stop();
-});
+// window.addEventListener('DOMContentLoaded', (event) => {
+//     $("#loaderContainer").fadeOut();
+//     animation.stop();
+// });

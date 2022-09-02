@@ -3954,3 +3954,56 @@ Watching for file changes with StatReloader
 "GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA HTTP/1.1" 200 39442
 "GET / HTTP/1.1" 200 2392
 "GET /search/?name=%D8%A2%D9%85%D9%88%D8%B2%D8%B4+%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 HTTP/1.1" 200 15691
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2392
+"GET /static/style/all.css HTTP/1.1" 200 17970
+"GET /static/script/all.js HTTP/1.1" 304 0
+"GET /static/script/lottie.min.js HTTP/1.1" 304 0
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/favicon.ico HTTP/1.1" 304 0
+"GET /search?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA HTTP/1.1" 301 0
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA HTTP/1.1" 200 39592
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/style/star-rating.css HTTP/1.1" 304 0
+"GET /static/script/range.js HTTP/1.1" 200 316
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /static/script/resultPage.js HTTP/1.1" 200 889
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/style/range.less HTTP/1.1" 304 0
+"GET /media/Dropdown-arrow.png HTTP/1.1" 200 158
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA&order=price&max-price=2500000&page=1 HTTP/1.1" 200 39592
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA&order=price&max-price=2500000&page=1 HTTP/1.1" 200 39592
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA&order=price&max-price=2500000&page=1 HTTP/1.1" 200 39592
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA&order=price&max-price=2500000&page=1 HTTP/1.1" 200 39592
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA&order=price&max-price=2500000&page=1 HTTP/1.1" 200 39592
+E:\ohammadijikandi\CourseFind\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /search/?name=%D8%AC%D8%A7%D9%88%D8%A7%20%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA&order=price&max-price=2500000&page=1 HTTP/1.1" 200 39416
+"GET / HTTP/1.1" 200 2392
+"GET /search?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 HTTP/1.1" 301 0
+"GET /search/?name=%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 HTTP/1.1" 200 42660
+"GET / HTTP/1.1" 200 2392
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2392
+"GET /static/style/all.css HTTP/1.1" 200 18029
+"GET / HTTP/1.1" 200 2392
+"GET /static/style/all.css HTTP/1.1" 200 18046
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /static/script/all.js HTTP/1.1" 200 124
+"GET /static/media/Test_logo.jpeg HTTP/1.1" 200 12787
+"GET /static/script/lottie.min.js HTTP/1.1" 200 279772
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /media/favicon.ico HTTP/1.1" 200 1150
