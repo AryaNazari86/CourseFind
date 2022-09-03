@@ -341,7 +341,7 @@ header > form {
 
 #search-bar-mobile {
   display: none;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .search-bar > button > i,
@@ -444,6 +444,12 @@ header > form {
 
 #leftMenu {
   display: flex;
+  flex-direction: row;
+  color: #000;
+}
+
+.gradient-btn{
+  display: flex;
   background: linear-gradient(
     115deg,
     #d14045,
@@ -453,10 +459,8 @@ header > form {
     #cb853d,
     #f7a84b
   );
-  flex-direction: row;
-  color: #000;
-  text-decoration: none;
   padding: 2px;
+  margin: 7px 0;
   font-weight: normal;
   border-radius: 6px;
   overflow: hidden;
@@ -843,7 +847,6 @@ td {
 .course-details-page {
   background-color: white;
   height: 100%;
-  margin-right: 10px;
 }
 
 .courseDetails-header {

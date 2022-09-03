@@ -4548,3 +4548,27 @@ Watching for file changes with StatReloader
 "GET /static/script/range.js HTTP/1.1" 304 0
 "GET /static/style/range.less HTTP/1.1" 304 0
 "GET /search/?name=%D8%A2%D9%85%D9%88%D8%B2%D8%B4+%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86+%D8%B3%DB%8C+%D8%B4%D8%A7%D8%B1%D9%BE&order=price&max-price=2500000 HTTP/1.1" 200 41286
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2392
+"GET /static/style/all.css HTTP/1.1" 200 18354
+"GET /search/?name=%D8%B3%DB%8C%20%D9%BE%D9%84%D8%A7%D8%B3%20%D9%BE%D9%84%D8%A7%D8%B3 HTTP/1.1" 200 28070
+"GET /static/script/range.js HTTP/1.1" 304 0
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /static/script/resultPage.js HTTP/1.1" 304 0
+"GET /static/style/range.less HTTP/1.1" 304 0
+"GET /static/style/all.css HTTP/1.1" 304 0
+"GET /search/?name=%D8%B3%DB%8C%20%D9%BE%D9%84%D8%A7%D8%B3%20%D9%BE%D9%84%D8%A7%D8%B3 HTTP/1.1" 200 28132
+"GET /static/style/star-rating.css HTTP/1.1" 200 1682
+"GET /static/script/resultPage.js HTTP/1.1" 200 749
+"GET /static/style/all.css HTTP/1.1" 200 18075
+"GET /static/script/less.js HTTP/1.1" 200 488171
+"GET /media/Test_logo.jpeg HTTP/1.1" 200 32107
+"GET /media/CourseSources-Images/faradars.png HTTP/1.1" 200 70116
+"GET /static/script/range.js HTTP/1.1" 200 680
+"GET /static/fonts/Vazirmatn-Medium.woff2 HTTP/1.1" 200 49596
+"GET /media/CourseSources-Images/toplearn.png HTTP/1.1" 200 6370
+"GET /static/fonts/Vazirmatn-Black.woff2 HTTP/1.1" 200 49108
+"GET /static/fonts/Vazirmatn-Bold.woff2 HTTP/1.1" 200 49804
+"GET /static/fonts/Vazirmatn-Regular.woff2 HTTP/1.1" 200 49100
+"GET /static/style/range.less HTTP/1.1" 200 832
+"GET /media/favicon.ico HTTP/1.1" 200 1150
