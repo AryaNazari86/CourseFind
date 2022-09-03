@@ -1,7 +1,3 @@
-document.getElementById("filters-btn").addEventListener("click", () => {
-  $("#filters-popup").css("display", "flex").fadeIn(100);
-});
-
 document.getElementById("search-bar-mobile").addEventListener("click", () => {
   $("#search-popup").css("display", "flex").fadeIn(100);
 });

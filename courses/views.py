@@ -35,7 +35,17 @@ class SourceDel(APIView):
 # Courses
 def search(request):
     if request.GET.get('name') != None:
-        query = Course.objects.filter(name__icontains=request.GET.get('name'))
+        name = request.GET.get('name')
+        name = name.replace("آموزش", "")
+        name = name.replace("یادگیری", "")
+        name = name.replace("زبان", "")
+        name = name.replace("برنامه نویسی", "")
+        name = name.replace("از صفر", "")
+        name = name.replace("تا صد", "")
+        name = name.replace("صفر تا صد", "")
+        name = name.replace("رایگان", "")
+        name = name.rstrip().lstrip()
+        query = Course.objects.filter(name__icontains=name)
     else:
         query = Course.objects.all()
 
@@ -58,6 +68,17 @@ def search(request):
     coursesCount = query.count()
     # Pagination
     page = Paginator(query, 20)
+    currentPage = int(request.GET.get('page') or 1)
+    pagesCount = page.num_pages
+    pages = []
+    for i in range(1, 4):
+        if currentPage - i > 0:
+            pages.append(currentPage - i)
+    pages.append(currentPage)
+    for i in range(1, 4):
+        if currentPage + i <= pagesCount:
+            pages.append(currentPage + i)
+    pages.sort()
 
 
     return render(request, 'searchResult.html', 
@@ -67,9 +88,9 @@ def search(request):
         'searchName': request.GET.get('name') or '',
         'searchOrder': request.GET.get('order') or 'price',
         'searchMaxPrice': request.GET.get('max-price') or '2500000',
-        'currentPage': int(request.GET.get('page') or 1),
-        'pages': page.page_range,
-        'pagesCount': page.num_pages
+        'currentPage': currentPage,
+        'pages': pages,
+        'pagesCount': pagesCount
     })
 
 

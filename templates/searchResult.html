@@ -36,16 +36,16 @@
           </button>
         </div>
         <div id="leftMenu">
-          <div id="filters-btn">
+          <div class="filters-btn" onclick="$('#filters-popup').css('display', 'flex').fadeIn(100);">
             <i class="ri-equalizer-line"></i>
             فیلتر ها
           </div>
       </div>
       </header>
-      <div class="page-popup" id="filters-popup">
+      <div class="page-popup filters-popup" id="filters-popup">
 
         <div class="page-shadow"></div>
-        <div class="page-group" id="filter-group">
+        <div class="page-group filter-group">
           <button type="button" class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
             <i class="ri-close-line"></i>
           </button>
@@ -82,7 +82,7 @@
           <h1>کورس فایند</h1>
         </a>
         <div id="leftMenu">
-          <div id="filters-btn">
+          <div class="filters-btn" onclick="$('#filters-mobile-popup').css('display', 'flex').fadeIn(100);">
             <i class="ri-equalizer-line"></i>
             فیلتر ها
           </div>
@@ -91,11 +91,11 @@
         </button>
       </div>
       </header>
-      <div class="page-popup" id="filters-popup">
+      <div class="page-popup filters-popup" id="filters-mobile-popup">
 
         <div class="page-shadow"></div>
-        <div class="page-group" id="filter-group">
-          <button type="button" class="closeBtn" onclick="$('#filters-popup').fadeOut(100);">
+        <div class="page-group filter-group">
+          <button type="button" class="closeBtn" onclick="$('#filters-mobile-popup').fadeOut(100);">
             <i class="ri-close-line"></i>
           </button>
           <div class="filter-item">
@@ -110,8 +110,8 @@
           </div>
           <div class="filter-item">
             <div>حداکثر قیمت</div>
-            <div id="maxPriceValue">{{searchMaxPrice}} تومان</div>
-            <input name="max-price" type="range" id="maxPrice" min="0" max="5000000" step="10000" value="{{searchMaxPrice}}">
+            <div id="maxPriceValue-mobile">{{searchMaxPrice}} تومان</div>
+            <input name="max-price" type="range" id="maxPrice-mobile" min="0" max="5000000" step="10000" value="{{searchMaxPrice}}">
           </div>
           <!--
           <div class="filter-item">
@@ -224,13 +224,12 @@
   </div>
 
   <!-- <script src="{% static '/script/resultPage.js' %}"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="../static/script/less.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@persian-tools/persian-tools/build/persian-tools.umd.js"></script>
   <script src="../static/script/range.js"></script>
   <script src="../static/script/resultPage.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/../static/script/resultPage.js"></script>
 </body>
 
 </html>

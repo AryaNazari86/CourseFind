@@ -1,12 +1,10 @@
-#maxPriceValue {
+#maxPriceValue, #maxPriceValue-mobile {
     text-align: center;
-    font-weight: bold;
-    font-size: 10em;
     width: 300px; 
     letter-spacing: -.07em;
     text-shadow: white 2px 2px 2px;
   }
-#maxPrice {
+#maxPrice, #maxPrice-mobile {
     direction: rtl;
     display: block;
     -webkit-appearance: none;
@@ -17,7 +15,7 @@
     margin: 15px auto 20px auto;
     outline: 0;
   }
-  #maxPrice::-webkit-slider-thumb {
+  #maxPrice::-webkit-slider-thumb, #maxPrice-mobile::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: #e74c3c;
     width: 30px;
@@ -26,11 +24,7 @@
     border: 2px solid white;
     cursor: pointer;
     transition: .3s ease-in-out;
-  }​
-    #maxPrice::-webkit-slider-thumb:hover {
-      background-color: white;
-      border: 2px solid #e74c3c;
-    }
-    #maxPrice::-webkit-slider-thumb:active {
+  }
+    #maxPrice::-webkit-slider-thumb:active, #maxPrice-mobile::-webkit-slider-thumb:active {
       transform: scale(1.6);
     }
