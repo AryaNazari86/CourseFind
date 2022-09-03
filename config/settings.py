@@ -26,7 +26,9 @@ SECRET_KEY = '9kl7pztwjo)yf+z^%6dx3$j$x##0$e!e#jw#6^%k0^0nx%pz=#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'coursefind.pythonanywhere.com'
+]
 
 X_FRAME_OPTIONS = 'ALLOWALL'
 
@@ -69,7 +71,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'templates/',
+            'CourseFind/templates/',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -134,10 +136,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = '/home/coursefind/CourseFind/static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
